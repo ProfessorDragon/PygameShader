@@ -327,8 +327,7 @@ setuptools.setup(
     install_requires=[
         'setuptools>=39.2.1',
         'Cython>=0.28',
-        'numpy>=1.18',
-        'pygame>=2.0'
+        'numpy>=1.18'
         # cupy
 
     ],

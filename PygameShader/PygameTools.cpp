@@ -1689,7 +1689,7 @@ static const char * const __pyx_cfilenm = __FILE__;
 static const char* const __pyx_f[] = {
   "PygameShader/PygameTools.pyx",
   "carray.to_py",
-  "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd",
+  "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd",
   "cpython/contextvars.pxd",
   "cpython/type.pxd",
   "cpython/bool.pxd",
@@ -1991,7 +1991,7 @@ typedef struct {
 
 /* #### Code section: numeric_typedefs ### */
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":761
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":761
  * # in Cython to enable them only on the right systems.
  * 
  * ctypedef npy_int8       int8_t             # <<<<<<<<<<<<<<
@@ -2000,7 +2000,7 @@ typedef struct {
 */
 typedef npy_int8 __pyx_t_5numpy_int8_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":762
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":762
  * 
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t             # <<<<<<<<<<<<<<
@@ -2009,7 +2009,7 @@ typedef npy_int8 __pyx_t_5numpy_int8_t;
 */
 typedef npy_int16 __pyx_t_5numpy_int16_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":763
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":763
  * ctypedef npy_int8       int8_t
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t             # <<<<<<<<<<<<<<
@@ -2018,7 +2018,7 @@ typedef npy_int16 __pyx_t_5numpy_int16_t;
 */
 typedef npy_int32 __pyx_t_5numpy_int32_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":764
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":764
  * ctypedef npy_int16      int16_t
  * ctypedef npy_int32      int32_t
  * ctypedef npy_int64      int64_t             # <<<<<<<<<<<<<<
@@ -2027,7 +2027,7 @@ typedef npy_int32 __pyx_t_5numpy_int32_t;
 */
 typedef npy_int64 __pyx_t_5numpy_int64_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":766
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":766
  * ctypedef npy_int64      int64_t
  * 
  * ctypedef npy_uint8      uint8_t             # <<<<<<<<<<<<<<
@@ -2036,7 +2036,7 @@ typedef npy_int64 __pyx_t_5numpy_int64_t;
 */
 typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":767
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":767
  * 
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t             # <<<<<<<<<<<<<<
@@ -2045,7 +2045,7 @@ typedef npy_uint8 __pyx_t_5numpy_uint8_t;
 */
 typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":768
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":768
  * ctypedef npy_uint8      uint8_t
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t             # <<<<<<<<<<<<<<
@@ -2054,7 +2054,7 @@ typedef npy_uint16 __pyx_t_5numpy_uint16_t;
 */
 typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":769
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":769
  * ctypedef npy_uint16     uint16_t
  * ctypedef npy_uint32     uint32_t
  * ctypedef npy_uint64     uint64_t             # <<<<<<<<<<<<<<
@@ -2063,7 +2063,7 @@ typedef npy_uint32 __pyx_t_5numpy_uint32_t;
 */
 typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":771
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":771
  * ctypedef npy_uint64     uint64_t
  * 
  * ctypedef npy_float32    float32_t             # <<<<<<<<<<<<<<
@@ -2072,7 +2072,7 @@ typedef npy_uint64 __pyx_t_5numpy_uint64_t;
 */
 typedef npy_float32 __pyx_t_5numpy_float32_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":772
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":772
  * 
  * ctypedef npy_float32    float32_t
  * ctypedef npy_float64    float64_t             # <<<<<<<<<<<<<<
@@ -2081,7 +2081,7 @@ typedef npy_float32 __pyx_t_5numpy_float32_t;
 */
 typedef npy_float64 __pyx_t_5numpy_float64_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":779
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":779
  * ctypedef double complex complex128_t
  * 
  * ctypedef npy_longlong   longlong_t             # <<<<<<<<<<<<<<
@@ -2090,7 +2090,7 @@ typedef npy_float64 __pyx_t_5numpy_float64_t;
 */
 typedef npy_longlong __pyx_t_5numpy_longlong_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":780
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":780
  * 
  * ctypedef npy_longlong   longlong_t
  * ctypedef npy_ulonglong  ulonglong_t             # <<<<<<<<<<<<<<
@@ -2099,7 +2099,7 @@ typedef npy_longlong __pyx_t_5numpy_longlong_t;
 */
 typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":782
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":782
  * ctypedef npy_ulonglong  ulonglong_t
  * 
  * ctypedef npy_intp       intp_t             # <<<<<<<<<<<<<<
@@ -2108,7 +2108,7 @@ typedef npy_ulonglong __pyx_t_5numpy_ulonglong_t;
 */
 typedef npy_intp __pyx_t_5numpy_intp_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":783
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":783
  * 
  * ctypedef npy_intp       intp_t
  * ctypedef npy_uintp      uintp_t             # <<<<<<<<<<<<<<
@@ -2117,7 +2117,7 @@ typedef npy_intp __pyx_t_5numpy_intp_t;
 */
 typedef npy_uintp __pyx_t_5numpy_uintp_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":785
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":785
  * ctypedef npy_uintp      uintp_t
  * 
  * ctypedef npy_double     float_t             # <<<<<<<<<<<<<<
@@ -2126,7 +2126,7 @@ typedef npy_uintp __pyx_t_5numpy_uintp_t;
 */
 typedef npy_double __pyx_t_5numpy_float_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":786
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":786
  * 
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t             # <<<<<<<<<<<<<<
@@ -2135,7 +2135,7 @@ typedef npy_double __pyx_t_5numpy_float_t;
 */
 typedef npy_double __pyx_t_5numpy_double_t;
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":787
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":787
  * ctypedef npy_double     float_t
  * ctypedef npy_double     double_t
  * ctypedef npy_longdouble longdouble_t             # <<<<<<<<<<<<<<
@@ -2341,7 +2341,7 @@ struct __pyx_opt_args_12PygameShader_6shader_zoom;
 struct __pyx_opt_args_12PygameShader_6shader_zoom_inplace;
 struct __pyx_opt_args_12PygameShader_6shader_heatwave_array24_horiz_c;
 
-/* "PygameShader/shader.pxd":211
+/* "PygameShader/shader.pxd":210
  * cpdef bgr_copy(object surface_)
  * cpdef void bgr_3d(unsigned char [:, :, :] rgb_array)
  * cpdef void bgr_1d(unsigned char [::1] rgb_array, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2353,7 +2353,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bgr_1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":213
+/* "PygameShader/shader.pxd":212
  * cpdef void bgr_1d(unsigned char [::1] rgb_array, bint format_32=*)
  * 
  * cpdef np.ndarray[np.uint8_t, ndim=1] bgr_1d_cp(             # <<<<<<<<<<<<<<
@@ -2365,7 +2365,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bgr_1d_cp {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":218
+/* "PygameShader/shader.pxd":217
  * cpdef brg_copy(object surface_)
  * cpdef void brg_3d(unsigned char [:, :, :] rgb_array)
  * cpdef void brg_1d(unsigned char [::1] rgb_array, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2377,7 +2377,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brg_1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":219
+/* "PygameShader/shader.pxd":218
  * cpdef void brg_3d(unsigned char [:, :, :] rgb_array)
  * cpdef void brg_1d(unsigned char [::1] rgb_array, bint format_32=*)
  * cpdef np.ndarray[np.uint8_t, ndim=1] brg_1d_cp(             # <<<<<<<<<<<<<<
@@ -2389,7 +2389,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brg_1d_cp {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":225
+/* "PygameShader/shader.pxd":224
  * cpdef np.ndarray[np.uint8_t, ndim=2] grey_2d(surface_)
  * cpdef void grey_3d(unsigned char [:, :, :] rgb_array)
  * cpdef void grey_1d(unsigned char [:] rgb_array, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2401,7 +2401,7 @@ struct __pyx_opt_args_12PygameShader_6shader_grey_1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":227
+/* "PygameShader/shader.pxd":226
  * cpdef void grey_1d(unsigned char [:] rgb_array, bint format_32=*)
  * cpdef np.ndarray[np.uint8_t, ndim=1]\
  *         grey_1d_cp(const unsigned char [::1] bgr_array, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2413,7 +2413,7 @@ struct __pyx_opt_args_12PygameShader_6shader_grey_1d_cp {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":231
+/* "PygameShader/shader.pxd":230
  * cpdef sepia_copy(object surface_)
  * cpdef void sepia_3d(unsigned char [:, :, : ] rgb_array)
  * cpdef void sepia_1d(unsigned char [:] rgb_array, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2425,7 +2425,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sepia_1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":232
+/* "PygameShader/shader.pxd":231
  * cpdef void sepia_3d(unsigned char [:, :, : ] rgb_array)
  * cpdef void sepia_1d(unsigned char [:] rgb_array, bint format_32=*)
  * cdef np.ndarray[np.uint8_t, ndim=1, mode='c'] sepia_1d_cp(             # <<<<<<<<<<<<<<
@@ -2437,7 +2437,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sepia_1d_cp {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":234
+/* "PygameShader/shader.pxd":233
  * cdef np.ndarray[np.uint8_t, ndim=1, mode='c'] sepia_1d_cp(
  *         const unsigned char [::1] rgb_array, bint format_32=*)
  * cpdef void median(             # <<<<<<<<<<<<<<
@@ -2451,7 +2451,7 @@ struct __pyx_opt_args_12PygameShader_6shader_median {
   unsigned short reduce_factor_;
 };
 
-/* "PygameShader/shader.pxd":242
+/* "PygameShader/shader.pxd":241
  * cpdef void painting(object surface_) except *
  * cpdef void pixels(object surface_) except *
  * cdef void median_fast(             # <<<<<<<<<<<<<<
@@ -2464,7 +2464,7 @@ struct __pyx_opt_args_12PygameShader_6shader_median_fast {
   unsigned short reduce_factor_;
 };
 
-/* "PygameShader/shader.pxd":247
+/* "PygameShader/shader.pxd":246
  *         unsigned short int reduce_factor_=*
  * )
  * cpdef void median_grayscale(object surface_, int kernel_size_=*)             # <<<<<<<<<<<<<<
@@ -2476,7 +2476,7 @@ struct __pyx_opt_args_12PygameShader_6shader_median_grayscale {
   int kernel_size_;
 };
 
-/* "PygameShader/shader.pxd":248
+/* "PygameShader/shader.pxd":247
  * )
  * cpdef void median_grayscale(object surface_, int kernel_size_=*)
  * cpdef void posterize_surface(             # <<<<<<<<<<<<<<
@@ -2488,7 +2488,7 @@ struct __pyx_opt_args_12PygameShader_6shader_posterize_surface {
   int color_;
 };
 
-/* "PygameShader/shader.pxd":252
+/* "PygameShader/shader.pxd":251
  *         int color_=*
  * )
  * cpdef void sobel(             # <<<<<<<<<<<<<<
@@ -2500,7 +2500,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sobel {
   int threshold_;
 };
 
-/* "PygameShader/shader.pxd":256
+/* "PygameShader/shader.pxd":255
  *         int threshold_ = *
  * )
  * cpdef void sobel_1d(             # <<<<<<<<<<<<<<
@@ -2515,7 +2515,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sobel_1d {
   int greyscale;
 };
 
-/* "PygameShader/shader.pxd":265
+/* "PygameShader/shader.pxd":264
  *         bint greyscale = *
  *         )
  * cpdef void sobel_fast(             # <<<<<<<<<<<<<<
@@ -2528,7 +2528,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sobel_fast {
   unsigned short factor_;
 };
 
-/* "PygameShader/shader.pxd":273
+/* "PygameShader/shader.pxd":272
  * cpdef invert_copy(object surface_)
  * cpdef void invert3d(unsigned char [:, :, :] rgb_array)
  * cpdef void invert1d(unsigned char [:] rgb_array, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2540,7 +2540,7 @@ struct __pyx_opt_args_12PygameShader_6shader_invert1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":274
+/* "PygameShader/shader.pxd":273
  * cpdef void invert3d(unsigned char [:, :, :] rgb_array)
  * cpdef void invert1d(unsigned char [:] rgb_array, bint format_32=*)
  * cpdef np.ndarray[np.uint8_t, ndim=1] invert1d_cp(const unsigned char [:] rgb_array, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2552,7 +2552,7 @@ struct __pyx_opt_args_12PygameShader_6shader_invert1d_cp {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":277
+/* "PygameShader/shader.pxd":276
  * cpdef void hsl_effect(object surface_, const float shift)
  * cpdef void hsl3d(unsigned char [:, :, :] rgb_array, const float shift)
  * cpdef void hsl1d(unsigned char [::1] bgr_array, const float shift, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2564,7 +2564,7 @@ struct __pyx_opt_args_12PygameShader_6shader_hsl1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":278
+/* "PygameShader/shader.pxd":277
  * cpdef void hsl3d(unsigned char [:, :, :] rgb_array, const float shift)
  * cpdef void hsl1d(unsigned char [::1] bgr_array, const float shift, bint format_32=*)
  * cpdef np.ndarray[np.uint8_t, ndim=1] hsl1d_cp(             # <<<<<<<<<<<<<<
@@ -2576,7 +2576,7 @@ struct __pyx_opt_args_12PygameShader_6shader_hsl1d_cp {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":282
+/* "PygameShader/shader.pxd":281
  * cpdef void hsv_effect(object surface_, const float shift)
  * cpdef void hsv3d(unsigned char [:, :, :] rgb_array, const float shift)
  * cpdef void hsv1d(unsigned char [::1] bgr_array, const float shift, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2588,7 +2588,7 @@ struct __pyx_opt_args_12PygameShader_6shader_hsv1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":283
+/* "PygameShader/shader.pxd":282
  * cpdef void hsv3d(unsigned char [:, :, :] rgb_array, const float shift)
  * cpdef void hsv1d(unsigned char [::1] bgr_array, const float shift, bint format_32=*)
  * cpdef np.ndarray[np.uint8_t, ndim=1] hsv1d_cp(             # <<<<<<<<<<<<<<
@@ -2600,7 +2600,7 @@ struct __pyx_opt_args_12PygameShader_6shader_hsv1d_cp {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":285
+/* "PygameShader/shader.pxd":284
  * cpdef np.ndarray[np.uint8_t, ndim=1] hsv1d_cp(
  *         const unsigned char [::1] bgr_array, const float shift, bint format_32=*)
  * cpdef void wave(object surface_, const float rad, int size=*)             # <<<<<<<<<<<<<<
@@ -2612,7 +2612,7 @@ struct __pyx_opt_args_12PygameShader_6shader_wave {
   int size;
 };
 
-/* "PygameShader/shader.pxd":286
+/* "PygameShader/shader.pxd":285
  *         const unsigned char [::1] bgr_array, const float shift, bint format_32=*)
  * cpdef void wave(object surface_, const float rad, int size=*)
  * cpdef void wave32(object surface_, const float rad, int size=*)             # <<<<<<<<<<<<<<
@@ -2624,7 +2624,7 @@ struct __pyx_opt_args_12PygameShader_6shader_wave32 {
   int size;
 };
 
-/* "PygameShader/shader.pxd":287
+/* "PygameShader/shader.pxd":286
  * cpdef void wave(object surface_, const float rad, int size=*)
  * cpdef void wave32(object surface_, const float rad, int size=*)
  * cpdef void wave_static(object surface_, array_, const float rad, int size=*)             # <<<<<<<<<<<<<<
@@ -2636,7 +2636,7 @@ struct __pyx_opt_args_12PygameShader_6shader_wave_static {
   int size;
 };
 
-/* "PygameShader/shader.pxd":293
+/* "PygameShader/shader.pxd":292
  * cpdef void swirlf(object surface_, float degrees)
  * 
  * cpdef void plasma_config(             # <<<<<<<<<<<<<<
@@ -2653,7 +2653,7 @@ struct __pyx_opt_args_12PygameShader_6shader_plasma_config {
   float c_;
 };
 
-/* "PygameShader/shader.pxd":306
+/* "PygameShader/shader.pxd":305
  * cpdef void brightness(object surface_, float shift_)
  * cpdef void brightness3d(unsigned char [:, :, :] rgb_array, float shift)
  * cpdef void brightness1d(unsigned char [:] bgr_array, const float shift, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2665,7 +2665,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brightness1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":307
+/* "PygameShader/shader.pxd":306
  * cpdef void brightness3d(unsigned char [:, :, :] rgb_array, float shift)
  * cpdef void brightness1d(unsigned char [:] bgr_array, const float shift, bint format_32=*)
  * cpdef np.ndarray[np.uint8_t, ndim=1] brightness1d_copy(             # <<<<<<<<<<<<<<
@@ -2677,7 +2677,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brightness1d_copy {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":310
+/* "PygameShader/shader.pxd":309
  *         unsigned char [:] bgr_array, const float shift, bint format_32=*)
  * cpdef object brightness_copy(object surface_, const float shift)
  * cpdef void brightness_exclude(             # <<<<<<<<<<<<<<
@@ -2689,7 +2689,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brightness_exclude {
   PyObject *color_;
 };
 
-/* "PygameShader/shader.pxd":315
+/* "PygameShader/shader.pxd":314
  *         color_=*
  * )
  * cpdef void brightness_bpf(             # <<<<<<<<<<<<<<
@@ -2701,7 +2701,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brightness_bpf {
   unsigned char bpf_threshold;
 };
 
-/* "PygameShader/shader.pxd":321
+/* "PygameShader/shader.pxd":320
  * cpdef void saturation(object surface_, float shift_)
  * cpdef void saturation3d(unsigned char [:, :, :] rgb_array, float shift)
  * cpdef void saturation1d(unsigned char [:] buffer, const float shift, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -2713,7 +2713,7 @@ struct __pyx_opt_args_12PygameShader_6shader_saturation1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":322
+/* "PygameShader/shader.pxd":321
  * cpdef void saturation3d(unsigned char [:, :, :] rgb_array, float shift)
  * cpdef void saturation1d(unsigned char [:] buffer, const float shift, bint format_32=*)
  * cpdef np.ndarray[np.uint8_t, ndim=1]  saturation1d_cp(             # <<<<<<<<<<<<<<
@@ -2725,7 +2725,7 @@ struct __pyx_opt_args_12PygameShader_6shader_saturation1d_cp {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":327
+/* "PygameShader/shader.pxd":326
  *         bint format_32=*
  * )
  * cpdef void heatconvection(             # <<<<<<<<<<<<<<
@@ -2739,7 +2739,7 @@ struct __pyx_opt_args_12PygameShader_6shader_heatconvection {
   float mu;
 };
 
-/* "PygameShader/shader.pxd":346
+/* "PygameShader/shader.pxd":345
  *         const float amplitude
  * )
  * cpdef void bpf(object surface_, int threshold = *)             # <<<<<<<<<<<<<<
@@ -2751,7 +2751,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bpf {
   int threshold;
 };
 
-/* "PygameShader/shader.pxd":347
+/* "PygameShader/shader.pxd":346
  * )
  * cpdef void bpf(object surface_, int threshold = *)
  * cpdef void bloom(             # <<<<<<<<<<<<<<
@@ -2764,7 +2764,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bloom {
   PyObject *mask_;
 };
 
-/* "PygameShader/shader.pxd":378
+/* "PygameShader/shader.pxd":377
  *         unsigned int [:, :, ::1] fisheye_model
  * )
  * cpdef void tv_scan(surface_, int space=*)             # <<<<<<<<<<<<<<
@@ -2776,7 +2776,7 @@ struct __pyx_opt_args_12PygameShader_6shader_tv_scan {
   int space;
 };
 
-/* "PygameShader/shader.pxd":379
+/* "PygameShader/shader.pxd":378
  * )
  * cpdef void tv_scan(surface_, int space=*)
  * cpdef tuple ripple(             # <<<<<<<<<<<<<<
@@ -2788,7 +2788,7 @@ struct __pyx_opt_args_12PygameShader_6shader_ripple {
   float dispersion_;
 };
 
-/* "PygameShader/shader.pxd":387
+/* "PygameShader/shader.pxd":386
  *         float dispersion_ = *
  * )
  * cpdef tuple ripple_seabed(             # <<<<<<<<<<<<<<
@@ -2800,7 +2800,7 @@ struct __pyx_opt_args_12PygameShader_6shader_ripple_seabed {
   float dispersion_;
 };
 
-/* "PygameShader/shader.pxd":395
+/* "PygameShader/shader.pxd":394
  *     float dispersion_ = *
  * )
  * cpdef void heatmap(object surface_, bint rgb_=*)             # <<<<<<<<<<<<<<
@@ -2812,7 +2812,7 @@ struct __pyx_opt_args_12PygameShader_6shader_heatmap {
   int rgb_;
 };
 
-/* "PygameShader/shader.pxd":396
+/* "PygameShader/shader.pxd":395
  * )
  * cpdef void heatmap(object surface_, bint rgb_=*)
  * cpdef predator_vision(             # <<<<<<<<<<<<<<
@@ -2829,7 +2829,7 @@ struct __pyx_opt_args_12PygameShader_6shader_predator_vision {
   int blend;
 };
 
-/* "PygameShader/shader.pxd":413
+/* "PygameShader/shader.pxd":412
  * cpdef  void mirroring(object surface_)
  * cpdef  void sharpen(object surface_)
  * cpdef  void sharpen_1d(             # <<<<<<<<<<<<<<
@@ -2841,7 +2841,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sharpen_1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":418
+/* "PygameShader/shader.pxd":417
  *         unsigned char [::1] bgr_array,
  *         bint format_32=*)
  * cdef  void sharpen_1d_c(             # <<<<<<<<<<<<<<
@@ -2853,7 +2853,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sharpen_1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":424
+/* "PygameShader/shader.pxd":423
  *         const unsigned char [::1] bgr_array_cp,
  *         bint format_32=*)nogil
  * cpdef  np.ndarray[np.uint8_t, ndim=1] sharpen_1d_cp(             # <<<<<<<<<<<<<<
@@ -2865,7 +2865,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sharpen_1d_cp {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":430
+/* "PygameShader/shader.pxd":429
  *         bint format_32=*
  * )
  * cdef  unsigned char [::1] sharpen_1d_cp_c(             # <<<<<<<<<<<<<<
@@ -2877,7 +2877,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sharpen_1d_cp_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":437
+/* "PygameShader/shader.pxd":436
  *         bint format_32=*)nogil
  * cpdef  void sharpen32(object surface_)
  * cpdef  void dirt_lens(             # <<<<<<<<<<<<<<
@@ -2890,7 +2890,7 @@ struct __pyx_opt_args_12PygameShader_6shader_dirt_lens {
   float light_;
 };
 
-/* "PygameShader/shader.pxd":447
+/* "PygameShader/shader.pxd":446
  * cpdef object dithering(object surface_)
  * cpdef  void dithering_inplace(object surface_)
  * cpdef  void dithering1d(             # <<<<<<<<<<<<<<
@@ -2902,7 +2902,7 @@ struct __pyx_opt_args_12PygameShader_6shader_dithering1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":453
+/* "PygameShader/shader.pxd":452
  *         bint format_32=*
  * )
  * cdef  void dithering1d_c(             # <<<<<<<<<<<<<<
@@ -2914,7 +2914,7 @@ struct __pyx_opt_args_12PygameShader_6shader_dithering1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":461
+/* "PygameShader/shader.pxd":460
  *         bint format_32=*
  * )nogil
  * cpdef  dithering1d_cp(             # <<<<<<<<<<<<<<
@@ -2926,7 +2926,7 @@ struct __pyx_opt_args_12PygameShader_6shader_dithering1d_cp {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":467
+/* "PygameShader/shader.pxd":466
  *         bint format_32 = *
  * )
  * cdef dithering1d_cp_c(             # <<<<<<<<<<<<<<
@@ -2938,7 +2938,7 @@ struct __pyx_opt_args_12PygameShader_6shader_dithering1d_cp_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":475
+/* "PygameShader/shader.pxd":474
  *         bint format_32=*)
  * cpdef object dithering_atkinson(object surface_)
  * cpdef  void dithering_atkinson1d(             # <<<<<<<<<<<<<<
@@ -2950,7 +2950,7 @@ struct __pyx_opt_args_12PygameShader_6shader_dithering_atkinson1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":481
+/* "PygameShader/shader.pxd":480
  *     bint format_32=*
  * )
  * cdef  void dithering_atkinson1d_c(             # <<<<<<<<<<<<<<
@@ -2962,7 +2962,7 @@ struct __pyx_opt_args_12PygameShader_6shader_dithering_atkinson1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":489
+/* "PygameShader/shader.pxd":488
  *         bint format_32=*
  * )nogil
  * cpdef object pixelation(object surface_, unsigned int blocksize_=*)             # <<<<<<<<<<<<<<
@@ -2974,7 +2974,7 @@ struct __pyx_opt_args_12PygameShader_6shader_pixelation {
   unsigned int blocksize_;
 };
 
-/* "PygameShader/shader.pxd":491
+/* "PygameShader/shader.pxd":490
  * cpdef object pixelation(object surface_, unsigned int blocksize_=*)
  * cpdef object blend(object source, object destination, float percentage)
  * cpdef blend1d(             # <<<<<<<<<<<<<<
@@ -2986,7 +2986,7 @@ struct __pyx_opt_args_12PygameShader_6shader_blend1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":500
+/* "PygameShader/shader.pxd":499
  *         bint format_32 = *)
  * 
  * cdef blend1d_c(             # <<<<<<<<<<<<<<
@@ -2998,7 +2998,7 @@ struct __pyx_opt_args_12PygameShader_6shader_blend1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":517
+/* "PygameShader/shader.pxd":516
  *         float percentage
  *         )
  * cpdef cartoon(             # <<<<<<<<<<<<<<
@@ -3013,7 +3013,7 @@ struct __pyx_opt_args_12PygameShader_6shader_cartoon {
   unsigned int flag;
 };
 
-/* "PygameShader/shader.pxd":525
+/* "PygameShader/shader.pxd":524
  * )
  * cpdef  void convert_27(object surface_)
  * cpdef object bilateral(object image, const float sigma_s, const float sigma_i, unsigned int kernel_size = *)             # <<<<<<<<<<<<<<
@@ -3025,7 +3025,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bilateral {
   unsigned int kernel_size;
 };
 
-/* "PygameShader/shader.pxd":526
+/* "PygameShader/shader.pxd":525
  * cpdef  void convert_27(object surface_)
  * cpdef object bilateral(object image, const float sigma_s, const float sigma_i, unsigned int kernel_size = *)
  * cpdef object emboss(object surface_, unsigned short int flag_=*)             # <<<<<<<<<<<<<<
@@ -3037,7 +3037,7 @@ struct __pyx_opt_args_12PygameShader_6shader_emboss {
   unsigned short flag_;
 };
 
-/* "PygameShader/shader.pxd":527
+/* "PygameShader/shader.pxd":526
  * cpdef object bilateral(object image, const float sigma_s, const float sigma_i, unsigned int kernel_size = *)
  * cpdef object emboss(object surface_, unsigned short int flag_=*)
  * cpdef void emboss_inplace(object surface_, copy=*)             # <<<<<<<<<<<<<<
@@ -3049,7 +3049,7 @@ struct __pyx_opt_args_12PygameShader_6shader_emboss_inplace {
   PyObject *copy;
 };
 
-/* "PygameShader/shader.pxd":528
+/* "PygameShader/shader.pxd":527
  * cpdef object emboss(object surface_, unsigned short int flag_=*)
  * cpdef void emboss_inplace(object surface_, copy=*)
  * cpdef  void emboss1d(             # <<<<<<<<<<<<<<
@@ -3062,7 +3062,7 @@ struct __pyx_opt_args_12PygameShader_6shader_emboss1d {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":536
+/* "PygameShader/shader.pxd":535
  * )
  * cpdef object emboss_gray(object surface_)
  * cpdef object bilinear(             # <<<<<<<<<<<<<<
@@ -3075,7 +3075,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bilinear {
   PyObject *fy;
 };
 
-/* "PygameShader/shader.pxd":575
+/* "PygameShader/shader.pxd":574
  *         unsigned char [::1] dest_array)
  * cdef  float damped_oscillation(float t)nogil
  * cdef  float gauss(float x, float c, float sigma=*, float mu=*)nogil             # <<<<<<<<<<<<<<
@@ -3088,7 +3088,7 @@ struct __pyx_opt_args_12PygameShader_6shader_gauss {
   float mu;
 };
 
-/* "PygameShader/shader.pxd":577
+/* "PygameShader/shader.pxd":576
  * cdef  float gauss(float x, float c, float sigma=*, float mu=*)nogil
  * cdef  void bgr_c(unsigned char [:, :, :] rgb_array)nogil
  * cdef  void bgr_1d_c(unsigned char [::1] rgb_array, bint format_32=*)nogil             # <<<<<<<<<<<<<<
@@ -3100,7 +3100,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bgr_1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":578
+/* "PygameShader/shader.pxd":577
  * cdef  void bgr_c(unsigned char [:, :, :] rgb_array)nogil
  * cdef  void bgr_1d_c(unsigned char [::1] rgb_array, bint format_32=*)nogil
  * cdef  np.ndarray[np.uint8_t, ndim=1] bgr_1d_cp_c(             # <<<<<<<<<<<<<<
@@ -3112,7 +3112,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bgr_1d_cp_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":581
+/* "PygameShader/shader.pxd":580
  *         unsigned char [::1] rgb_array, bint format_32=*)
  * cdef  void brg_c(unsigned char [:, :, :] rgb_array)
  * cdef  void brg_1d_c(             # <<<<<<<<<<<<<<
@@ -3124,7 +3124,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brg_1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":583
+/* "PygameShader/shader.pxd":582
  * cdef  void brg_1d_c(
  *         unsigned char [::1] bgr_array, bint format_32=*)
  * cdef  np.ndarray[np.uint8_t, ndim=1] brg_1d_cp_c(             # <<<<<<<<<<<<<<
@@ -3136,7 +3136,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brg_1d_cp_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":587
+/* "PygameShader/shader.pxd":586
  * cdef  void grey_c(unsigned char [:, :, :] rgb_array)
  * cdef np.ndarray[np.uint8_t, ndim=2] grey_2d_c(unsigned char [:, :, :] rgb_array)
  * cdef  void grey_1d_c(             # <<<<<<<<<<<<<<
@@ -3148,7 +3148,7 @@ struct __pyx_opt_args_12PygameShader_6shader_grey_1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":590
+/* "PygameShader/shader.pxd":589
  *         unsigned char [:] rgb_array, bint format_32=*)
  * cdef  np.ndarray[np.uint8_t, ndim=1] \
  *         grey_1d_cp_c(const unsigned char [::1] bgr_array,             # <<<<<<<<<<<<<<
@@ -3160,7 +3160,7 @@ struct __pyx_opt_args_12PygameShader_6shader_grey_1d_cp_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":593
+/* "PygameShader/shader.pxd":592
  *                      bint format_32=*)
  * cdef  void sepia_c(unsigned char [:, :, :] rgb_array)
  * cdef void sepia_1d_c(unsigned char [:] rgb_array, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -3172,7 +3172,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sepia_1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":594
+/* "PygameShader/shader.pxd":593
  * cdef  void sepia_c(unsigned char [:, :, :] rgb_array)
  * cdef void sepia_1d_c(unsigned char [:] rgb_array, bint format_32=*)
  * cdef unsigned char [::1] sepia_1d_cp_c(             # <<<<<<<<<<<<<<
@@ -3184,7 +3184,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sepia_1d_cp_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":598
+/* "PygameShader/shader.pxd":597
  *         unsigned char [::1] destination_array,
  *         bint format_32=*)nogil
  * cdef  void median_inplace_c(             # <<<<<<<<<<<<<<
@@ -3196,7 +3196,7 @@ struct __pyx_opt_args_12PygameShader_6shader_median_inplace_c {
   int kernel_size_;
 };
 
-/* "PygameShader/shader.pxd":600
+/* "PygameShader/shader.pxd":599
  * cdef  void median_inplace_c(
  *         unsigned char [:, :, :] rgb_array_, int kernel_size_=*)
  * cdef  void median_grayscale_inplace_c(             # <<<<<<<<<<<<<<
@@ -3208,7 +3208,7 @@ struct __pyx_opt_args_12PygameShader_6shader_median_grayscale_inplace_c {
   int kernel_size_;
 };
 
-/* "PygameShader/shader.pxd":604
+/* "PygameShader/shader.pxd":603
  * cdef  void posterize_surface_c(
  *         unsigned char [:, :, :] rgb_array, int color_number)
  * cdef  void sobel_inplace_c(             # <<<<<<<<<<<<<<
@@ -3220,7 +3220,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sobel_inplace_c {
   float threshold;
 };
 
-/* "PygameShader/shader.pxd":608
+/* "PygameShader/shader.pxd":607
  *         float threshold=*
  * )
  * cdef  void sobel_1d_c(             # <<<<<<<<<<<<<<
@@ -3234,7 +3234,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sobel_1d_c {
   int greyscale;
 };
 
-/* "PygameShader/shader.pxd":616
+/* "PygameShader/shader.pxd":615
  *         bint format_32 = *,
  *         bint greyscale = *)nogil
  * cdef  void sobel_fast_inplace_c(             # <<<<<<<<<<<<<<
@@ -3247,7 +3247,7 @@ struct __pyx_opt_args_12PygameShader_6shader_sobel_fast_inplace_c {
   unsigned short factor_;
 };
 
-/* "PygameShader/shader.pxd":621
+/* "PygameShader/shader.pxd":620
  *         unsigned char [:, :, :] rgb_array)
  * cdef void invert3d_c(unsigned char [:, :, :] rgb_array)
  * cdef void invert1d_c(unsigned char [:] rgb_array, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -3259,7 +3259,7 @@ struct __pyx_opt_args_12PygameShader_6shader_invert1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":622
+/* "PygameShader/shader.pxd":621
  * cdef void invert3d_c(unsigned char [:, :, :] rgb_array)
  * cdef void invert1d_c(unsigned char [:] rgb_array, bint format_32=*)
  * cdef np.ndarray[np.uint8_t, ndim=1] invert1d_cp_c(             # <<<<<<<<<<<<<<
@@ -3271,7 +3271,7 @@ struct __pyx_opt_args_12PygameShader_6shader_invert1d_cp_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":625
+/* "PygameShader/shader.pxd":624
  *         const unsigned char [:] rgb_array,
  *         bint format_32=*)
  * cdef  void wave_inplace_c(             # <<<<<<<<<<<<<<
@@ -3283,7 +3283,7 @@ struct __pyx_opt_args_12PygameShader_6shader_wave_inplace_c {
   int size;
 };
 
-/* "PygameShader/shader.pxd":660
+/* "PygameShader/shader.pxd":659
  *     const float degrees
  * )nogil
  * cdef  void plasma_inplace_c(             # <<<<<<<<<<<<<<
@@ -3300,7 +3300,7 @@ struct __pyx_opt_args_12PygameShader_6shader_plasma_inplace_c {
   float c_;
 };
 
-/* "PygameShader/shader.pxd":671
+/* "PygameShader/shader.pxd":670
  * cdef  void plasma_c(surface_, float frame, unsigned int [::1] palette_)
  * cdef void hsl_c(unsigned char [:, :, :] rgb_array, const float shift)
  * cdef  void hsl1d_c(unsigned char [::1] bgr_array, const float shift, bint format_32=*)             # <<<<<<<<<<<<<<
@@ -3312,7 +3312,7 @@ struct __pyx_opt_args_12PygameShader_6shader_hsl1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":672
+/* "PygameShader/shader.pxd":671
  * cdef void hsl_c(unsigned char [:, :, :] rgb_array, const float shift)
  * cdef  void hsl1d_c(unsigned char [::1] bgr_array, const float shift, bint format_32=*)
  * cdef np.ndarray[np.uint8_t, ndim=1] hsl1d_cp_c(             # <<<<<<<<<<<<<<
@@ -3324,7 +3324,7 @@ struct __pyx_opt_args_12PygameShader_6shader_hsl1d_cp_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":678
+/* "PygameShader/shader.pxd":677
  * )
  * cdef  void hsv3d_c(unsigned char [:, :, :] rgb_array, const float shift_)
  * cdef  void hsv1d_c(             # <<<<<<<<<<<<<<
@@ -3336,7 +3336,7 @@ struct __pyx_opt_args_12PygameShader_6shader_hsv1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":680
+/* "PygameShader/shader.pxd":679
  * cdef  void hsv1d_c(
  *         unsigned char [::1] bgr_array, const float shift, bint format_32=*)
  * cdef np.ndarray[np.uint8_t, ndim=1] hsv1d_cp_c(             # <<<<<<<<<<<<<<
@@ -3348,7 +3348,7 @@ struct __pyx_opt_args_12PygameShader_6shader_hsv1d_cp_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":684
+/* "PygameShader/shader.pxd":683
  *         const float shift,
  *         bint format_32=*)
  * cdef  void brightness_c(             # <<<<<<<<<<<<<<
@@ -3360,7 +3360,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brightness_c {
   float shift;
 };
 
-/* "PygameShader/shader.pxd":687
+/* "PygameShader/shader.pxd":686
  *         unsigned char [:, :, :] rgb_array,
  *         float shift=*)
  * cdef  object brightness_copy_c(             # <<<<<<<<<<<<<<
@@ -3372,7 +3372,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brightness_copy_c {
   float shift;
 };
 
-/* "PygameShader/shader.pxd":689
+/* "PygameShader/shader.pxd":688
  * cdef  object brightness_copy_c(
  *         unsigned char [:, :, :] rgb_array, float shift=*)
  * cdef  void brightness1d_c(unsigned char [:] bgr_array, const float shift, bint format_32=*)nogil             # <<<<<<<<<<<<<<
@@ -3384,7 +3384,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brightness1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":690
+/* "PygameShader/shader.pxd":689
  *         unsigned char [:, :, :] rgb_array, float shift=*)
  * cdef  void brightness1d_c(unsigned char [:] bgr_array, const float shift, bint format_32=*)nogil
  * cdef  np.ndarray[np.uint8_t, ndim=1] brightness1d_copy_c(             # <<<<<<<<<<<<<<
@@ -3396,7 +3396,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brightness1d_copy_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":692
+/* "PygameShader/shader.pxd":691
  * cdef  np.ndarray[np.uint8_t, ndim=1] brightness1d_copy_c(
  *         unsigned char [:] bgr_array, const float shift, bint format_32=*)
  * cdef  void brightness_ex_c(             # <<<<<<<<<<<<<<
@@ -3409,7 +3409,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brightness_ex_c {
   PyObject *color_;
 };
 
-/* "PygameShader/shader.pxd":694
+/* "PygameShader/shader.pxd":693
  * cdef  void brightness_ex_c(
  *         unsigned char [:, :, :] rgb_array_, float shift_=*, color_=*)
  * cdef  void brightness_bpf_c(             # <<<<<<<<<<<<<<
@@ -3422,7 +3422,7 @@ struct __pyx_opt_args_12PygameShader_6shader_brightness_bpf_c {
   unsigned char bpf_threshold_;
 };
 
-/* "PygameShader/shader.pxd":699
+/* "PygameShader/shader.pxd":698
  *         unsigned char bpf_threshold_=*)
  * cdef  void saturation_c(unsigned char [:, :, :] rgb_array_, const float shift_)
  * cdef  void saturation1d_c(             # <<<<<<<<<<<<<<
@@ -3434,7 +3434,7 @@ struct __pyx_opt_args_12PygameShader_6shader_saturation1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":704
+/* "PygameShader/shader.pxd":703
  *         bint format_32=*
  * )nogil
  * cdef np.ndarray[np.uint8_t, ndim=1] saturation1d_cp_c(             # <<<<<<<<<<<<<<
@@ -3446,7 +3446,7 @@ struct __pyx_opt_args_12PygameShader_6shader_saturation1d_cp_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":720
+/* "PygameShader/shader.pxd":719
  *         int w, int h
  * )nogil
  * cdef  void heatconvection_inplace_c(             # <<<<<<<<<<<<<<
@@ -3460,7 +3460,7 @@ struct __pyx_opt_args_12PygameShader_6shader_heatconvection_inplace_c {
   float mu;
 };
 
-/* "PygameShader/shader.pxd":737
+/* "PygameShader/shader.pxd":736
  *         const float frequency,
  *         const float amplitude)
  * cdef  void bpf_inplace_c(             # <<<<<<<<<<<<<<
@@ -3472,7 +3472,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bpf_inplace_c {
   int threshold;
 };
 
-/* "PygameShader/shader.pxd":740
+/* "PygameShader/shader.pxd":739
  *         unsigned char [:, :, :] rgb_array_, int w, int h, int threshold = *)nogil
  * 
  * cdef  void bpf_c(             # <<<<<<<<<<<<<<
@@ -3484,7 +3484,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bpf_c {
   int threshold;
 };
 
-/* "PygameShader/shader.pxd":743
+/* "PygameShader/shader.pxd":742
  *         object surface_,
  *         int threshold = *)
  * cdef  bpf24_c(             # <<<<<<<<<<<<<<
@@ -3496,7 +3496,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bpf24_c {
   int threshold;
 };
 
-/* "PygameShader/shader.pxd":750
+/* "PygameShader/shader.pxd":749
  * cdef void filtering_inplace_c(object surface_, mask_)
  * cdef void filtering1d_inplace_c(object surface_, mask_)
  * cdef  void bloom_c(             # <<<<<<<<<<<<<<
@@ -3509,7 +3509,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bloom_c {
   PyObject *mask_;
 };
 
-/* "PygameShader/shader.pxd":756
+/* "PygameShader/shader.pxd":755
  *         object mask_ = *
  * )
  * cpdef  object shader_bloom_fast(             # <<<<<<<<<<<<<<
@@ -3522,7 +3522,7 @@ struct __pyx_opt_args_12PygameShader_6shader_shader_bloom_fast {
   unsigned short factor;
 };
 
-/* "PygameShader/shader.pxd":762
+/* "PygameShader/shader.pxd":761
  *         unsigned short int factor = *
  * )
  * cpdef void shader_bloom_fast1(             # <<<<<<<<<<<<<<
@@ -3538,7 +3538,7 @@ struct __pyx_opt_args_12PygameShader_6shader_shader_bloom_fast1 {
   PyObject *mask_;
 };
 
-/* "PygameShader/shader.pxd":784
+/* "PygameShader/shader.pxd":783
  *         unsigned char [:, :, :] rgb_array,
  *         int space)
  * cpdef object split_channels(             # <<<<<<<<<<<<<<
@@ -3550,7 +3550,7 @@ struct __pyx_opt_args_12PygameShader_6shader_split_channels {
   PyObject *array_;
 };
 
-/* "PygameShader/shader.pxd":788
+/* "PygameShader/shader.pxd":787
  *         char offset_,
  *         array_ = *)
  * cdef object split_channels_c(             # <<<<<<<<<<<<<<
@@ -3562,7 +3562,7 @@ struct __pyx_opt_args_12PygameShader_6shader_split_channels_c {
   PyObject *array_;
 };
 
-/* "PygameShader/shader.pxd":793
+/* "PygameShader/shader.pxd":792
  *         array_ = *)
  * 
  * cpdef void split_channels_inplace(             # <<<<<<<<<<<<<<
@@ -3574,7 +3574,7 @@ struct __pyx_opt_args_12PygameShader_6shader_split_channels_inplace {
   PyObject *array_;
 };
 
-/* "PygameShader/shader.pxd":797
+/* "PygameShader/shader.pxd":796
  *         char offset_,
  *         array_=*)
  * cdef void split_channels_inplace_c(             # <<<<<<<<<<<<<<
@@ -3586,7 +3586,7 @@ struct __pyx_opt_args_12PygameShader_6shader_split_channels_inplace_c {
   PyObject *array_;
 };
 
-/* "PygameShader/shader.pxd":803
+/* "PygameShader/shader.pxd":802
  * 
  * 
  * cdef  tuple ripple_c(             # <<<<<<<<<<<<<<
@@ -3598,7 +3598,7 @@ struct __pyx_opt_args_12PygameShader_6shader_ripple_c {
   float dispersion_;
 };
 
-/* "PygameShader/shader.pxd":811
+/* "PygameShader/shader.pxd":810
  *        )
  * 
  * cdef  ripple_seabed_c(             # <<<<<<<<<<<<<<
@@ -3610,7 +3610,7 @@ struct __pyx_opt_args_12PygameShader_6shader_ripple_seabed_c {
   float dispersion_;
 };
 
-/* "PygameShader/shader.pxd":819
+/* "PygameShader/shader.pxd":818
  *            float dispersion_ = *
  *            )
  * cpdef (int, int, int) wavelength2rgb(int wavelength, float gamma=*)             # <<<<<<<<<<<<<<
@@ -3627,7 +3627,7 @@ struct __pyx_opt_args_12PygameShader_6shader_wavelength2rgb {
   float gamma;
 };
 
-/* "PygameShader/shader.pxd":821
+/* "PygameShader/shader.pxd":820
  * cpdef (int, int, int) wavelength2rgb(int wavelength, float gamma=*)
  * 
  * cpdef tuple custom_map(int wavelength, int [::1] color_array, float gamma=*)             # <<<<<<<<<<<<<<
@@ -3639,7 +3639,7 @@ struct __pyx_opt_args_12PygameShader_6shader_custom_map {
   float gamma;
 };
 
-/* "PygameShader/shader.pxd":822
+/* "PygameShader/shader.pxd":821
  * 
  * cpdef tuple custom_map(int wavelength, int [::1] color_array, float gamma=*)
  * cdef void heatmap_c(object surface_, bint rgb_=*)             # <<<<<<<<<<<<<<
@@ -3651,7 +3651,7 @@ struct __pyx_opt_args_12PygameShader_6shader_heatmap_c {
   int rgb_;
 };
 
-/* "PygameShader/shader.pxd":823
+/* "PygameShader/shader.pxd":822
  * cpdef tuple custom_map(int wavelength, int [::1] color_array, float gamma=*)
  * cdef void heatmap_c(object surface_, bint rgb_=*)
  * cpdef (int, int, int) blue_map(int wavelength, float gamma=*)             # <<<<<<<<<<<<<<
@@ -3663,7 +3663,7 @@ struct __pyx_opt_args_12PygameShader_6shader_blue_map {
   float gamma;
 };
 
-/* "PygameShader/shader.pxd":825
+/* "PygameShader/shader.pxd":824
  * cpdef (int, int, int) blue_map(int wavelength, float gamma=*)
  * cpdef  void bluescale(object surface_)
  * cpdef (int, int, int) red_map(int wavelength, float gamma=*)             # <<<<<<<<<<<<<<
@@ -3675,7 +3675,7 @@ struct __pyx_opt_args_12PygameShader_6shader_red_map {
   float gamma;
 };
 
-/* "PygameShader/shader.pxd":846
+/* "PygameShader/shader.pxd":845
  * )nogil
  * 
  * cpdef tuple dampening(             # <<<<<<<<<<<<<<
@@ -3689,7 +3689,7 @@ struct __pyx_opt_args_12PygameShader_6shader_dampening {
   float freq;
 };
 
-/* "PygameShader/shader.pxd":854
+/* "PygameShader/shader.pxd":853
  *         int duration    = *,
  *         float freq      = *)
  * cpdef  float lateral_dampening(             # <<<<<<<<<<<<<<
@@ -3703,7 +3703,7 @@ struct __pyx_opt_args_12PygameShader_6shader_lateral_dampening {
   float freq;
 };
 
-/* "PygameShader/shader.pxd":861
+/* "PygameShader/shader.pxd":860
  * cdef  void sharpen_inplace_c(unsigned char [:, :, :] rgb_array)
  * cdef  void sharpen32_inplace_c(unsigned char [:, :, :] rgba_array_)
  * cdef cartoon_c(             # <<<<<<<<<<<<<<
@@ -3718,7 +3718,7 @@ struct __pyx_opt_args_12PygameShader_6shader_cartoon_c {
   unsigned int flag;
 };
 
-/* "PygameShader/shader.pxd":881
+/* "PygameShader/shader.pxd":880
  * cpdef void alpha_blending_inplace(object image1, object image2)
  * 
  * cdef  void dirt_lens_c(             # <<<<<<<<<<<<<<
@@ -3730,7 +3730,7 @@ struct __pyx_opt_args_12PygameShader_6shader_dirt_lens_c {
   float light_;
 };
 
-/* "PygameShader/shader.pxd":891
+/* "PygameShader/shader.pxd":890
  * cdef object dithering_atkinson_c(float [:, :, :] rgb_array_)
  * 
  * cdef dithering1D_atkinson_c(             # <<<<<<<<<<<<<<
@@ -3742,7 +3742,7 @@ struct __pyx_opt_args_12PygameShader_6shader_dithering1D_atkinson_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":904
+/* "PygameShader/shader.pxd":903
  * 
  * 
  * cdef bilateral_c(             # <<<<<<<<<<<<<<
@@ -3754,7 +3754,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bilateral_c {
   unsigned int kernel_size;
 };
 
-/* "PygameShader/shader.pxd":914
+/* "PygameShader/shader.pxd":913
  * cdef object emboss3d_gray_c(const unsigned char [:, :, :] rgb_array_)
  * 
  * cdef  void emboss3d_inplace_c(unsigned char [:, :, :] rgb_array, copy = *)             # <<<<<<<<<<<<<<
@@ -3766,7 +3766,7 @@ struct __pyx_opt_args_12PygameShader_6shader_emboss3d_inplace_c {
   PyObject *copy;
 };
 
-/* "PygameShader/shader.pxd":915
+/* "PygameShader/shader.pxd":914
  * 
  * cdef  void emboss3d_inplace_c(unsigned char [:, :, :] rgb_array, copy = *)
  * cdef  void emboss1d_c(             # <<<<<<<<<<<<<<
@@ -3778,7 +3778,7 @@ struct __pyx_opt_args_12PygameShader_6shader_emboss1d_c {
   int format_32;
 };
 
-/* "PygameShader/shader.pxd":921
+/* "PygameShader/shader.pxd":920
  *         const unsigned char [:] bgr_array_cp,
  *         bint format_32 = *)nogil
  * cdef object bilinear_c(             # <<<<<<<<<<<<<<
@@ -3791,7 +3791,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bilinear_c {
   PyObject *fy;
 };
 
-/* "PygameShader/shader.pxd":928
+/* "PygameShader/shader.pxd":927
  * )
  * 
  * cpdef tuple render_light_effect24(             # <<<<<<<<<<<<<<
@@ -3811,7 +3811,7 @@ struct __pyx_opt_args_12PygameShader_6shader_render_light_effect24 {
   float frequency;
 };
 
-/* "PygameShader/shader.pxd":943
+/* "PygameShader/shader.pxd":942
  *         float frequency=*)
  * 
  * cdef tuple bpf24_c2(image, int threshold = *, bint transpose=*)             # <<<<<<<<<<<<<<
@@ -3824,7 +3824,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bpf24_c2 {
   int transpose;
 };
 
-/* "PygameShader/shader.pxd":945
+/* "PygameShader/shader.pxd":944
  * cdef tuple bpf24_c2(image, int threshold = *, bint transpose=*)
  * 
  * cpdef  object bloom_effect_array24_c2(             # <<<<<<<<<<<<<<
@@ -3838,7 +3838,7 @@ struct __pyx_opt_args_12PygameShader_6shader_bloom_effect_array24_c2 {
   int fast_;
 };
 
-/* "PygameShader/shader.pxd":952
+/* "PygameShader/shader.pxd":951
  *         bint fast_ = *
  * )
  * cpdef area24_cc(             # <<<<<<<<<<<<<<
@@ -3856,7 +3856,7 @@ struct __pyx_opt_args_12PygameShader_6shader_area24_cc {
   unsigned char bloom_threshold;
 };
 
-/* "PygameShader/shader.pxd":961
+/* "PygameShader/shader.pxd":960
  * )
  * 
  * cpdef object chromatic(             # <<<<<<<<<<<<<<
@@ -3869,7 +3869,7 @@ struct __pyx_opt_args_12PygameShader_6shader_chromatic {
   float fx;
 };
 
-/* "PygameShader/shader.pxd":968
+/* "PygameShader/shader.pxd":967
  *         float fx=*
  * )
  * cpdef object chromatic_inplace(             # <<<<<<<<<<<<<<
@@ -3882,7 +3882,7 @@ struct __pyx_opt_args_12PygameShader_6shader_chromatic_inplace {
   float fx;
 };
 
-/* "PygameShader/shader.pxd":976
+/* "PygameShader/shader.pxd":975
  * )
  * 
  * cpdef object zoom(surface_, unsigned int delta_x, unsigned int delta_y, float zx=*)             # <<<<<<<<<<<<<<
@@ -3894,7 +3894,7 @@ struct __pyx_opt_args_12PygameShader_6shader_zoom {
   float zx;
 };
 
-/* "PygameShader/shader.pxd":977
+/* "PygameShader/shader.pxd":976
  * 
  * cpdef object zoom(surface_, unsigned int delta_x, unsigned int delta_y, float zx=*)
  * cpdef void zoom_inplace(             # <<<<<<<<<<<<<<
@@ -3906,7 +3906,7 @@ struct __pyx_opt_args_12PygameShader_6shader_zoom_inplace {
   float zx;
 };
 
-/* "PygameShader/shader.pxd":985
+/* "PygameShader/shader.pxd":984
  * 
  * cpdef void Luma_GreyScale(object surface_)
  * cdef heatwave_array24_horiz_c(unsigned char [:, :, :] rgb_array,             # <<<<<<<<<<<<<<
@@ -21677,7 +21677,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":230
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":230
  * 
  *     ctypedef class numpy.dtype [object PyArray_Descr, check_size ignore]:
  *         @property             # <<<<<<<<<<<<<<
@@ -21688,7 +21688,7 @@ static PyObject *__pyx_unpickle_Enum__set_state(struct __pyx_MemviewEnum_obj *__
 static CYTHON_INLINE PyTypeObject *__pyx_f_5numpy_5dtype_7typeobj___get__(PyArray_Descr *__pyx_v_self) {
   PyTypeObject *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":232
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":232
  *         @property
  *         cdef inline PyTypeObject* typeobj(self) noexcept nogil:
  *             return PyDataType_TYPEOBJ(self)             # <<<<<<<<<<<<<<
@@ -21701,7 +21701,7 @@ static CYTHON_INLINE PyTypeObject *__pyx_f_5numpy_5dtype_7typeobj___get__(PyArra
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":230
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":230
  * 
  *     ctypedef class numpy.dtype [object PyArray_Descr, check_size ignore]:
  *         @property             # <<<<<<<<<<<<<<
@@ -21714,7 +21714,7 @@ static CYTHON_INLINE PyTypeObject *__pyx_f_5numpy_5dtype_7typeobj___get__(PyArra
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":234
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":234
  *             return PyDataType_TYPEOBJ(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -21725,7 +21725,7 @@ static CYTHON_INLINE PyTypeObject *__pyx_f_5numpy_5dtype_7typeobj___get__(PyArra
 static CYTHON_INLINE char __pyx_f_5numpy_5dtype_4kind___get__(PyArray_Descr *__pyx_v_self) {
   char __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":236
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":236
  *         @property
  *         cdef inline char kind(self) noexcept nogil:
  *             return PyDataType_KIND(self)             # <<<<<<<<<<<<<<
@@ -21738,7 +21738,7 @@ static CYTHON_INLINE char __pyx_f_5numpy_5dtype_4kind___get__(PyArray_Descr *__p
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":234
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":234
  *             return PyDataType_TYPEOBJ(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -21751,7 +21751,7 @@ static CYTHON_INLINE char __pyx_f_5numpy_5dtype_4kind___get__(PyArray_Descr *__p
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":238
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":238
  *             return PyDataType_KIND(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -21762,7 +21762,7 @@ static CYTHON_INLINE char __pyx_f_5numpy_5dtype_4kind___get__(PyArray_Descr *__p
 static CYTHON_INLINE char __pyx_f_5numpy_5dtype_4type___get__(PyArray_Descr *__pyx_v_self) {
   char __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":240
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":240
  *         @property
  *         cdef inline char type(self) noexcept nogil:
  *             return PyDataType_TYPE(self)             # <<<<<<<<<<<<<<
@@ -21775,7 +21775,7 @@ static CYTHON_INLINE char __pyx_f_5numpy_5dtype_4type___get__(PyArray_Descr *__p
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":238
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":238
  *             return PyDataType_KIND(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -21788,7 +21788,7 @@ static CYTHON_INLINE char __pyx_f_5numpy_5dtype_4type___get__(PyArray_Descr *__p
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":247
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":247
  *         # PyArray_IsNativeByteOrder(dtype.byteorder) instead of
  *         # directly accessing this field.
  *         @property             # <<<<<<<<<<<<<<
@@ -21799,7 +21799,7 @@ static CYTHON_INLINE char __pyx_f_5numpy_5dtype_4type___get__(PyArray_Descr *__p
 static CYTHON_INLINE char __pyx_f_5numpy_5dtype_9byteorder___get__(PyArray_Descr *__pyx_v_self) {
   char __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":249
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":249
  *         @property
  *         cdef inline char byteorder(self) noexcept nogil:
  *             return PyDataType_BYTEORDER(self)             # <<<<<<<<<<<<<<
@@ -21812,7 +21812,7 @@ static CYTHON_INLINE char __pyx_f_5numpy_5dtype_9byteorder___get__(PyArray_Descr
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":247
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":247
  *         # PyArray_IsNativeByteOrder(dtype.byteorder) instead of
  *         # directly accessing this field.
  *         @property             # <<<<<<<<<<<<<<
@@ -21825,7 +21825,7 @@ static CYTHON_INLINE char __pyx_f_5numpy_5dtype_9byteorder___get__(PyArray_Descr
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":251
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":251
  *             return PyDataType_BYTEORDER(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -21836,7 +21836,7 @@ static CYTHON_INLINE char __pyx_f_5numpy_5dtype_9byteorder___get__(PyArray_Descr
 static CYTHON_INLINE int __pyx_f_5numpy_5dtype_8type_num___get__(PyArray_Descr *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":253
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":253
  *         @property
  *         cdef inline int type_num(self) noexcept nogil:
  *             return PyDataType_TYPENUM(self)             # <<<<<<<<<<<<<<
@@ -21849,7 +21849,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5dtype_8type_num___get__(PyArray_Descr *
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":251
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":251
  *             return PyDataType_BYTEORDER(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -21862,7 +21862,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5dtype_8type_num___get__(PyArray_Descr *
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":255
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":255
  *             return PyDataType_TYPENUM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -21873,7 +21873,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5dtype_8type_num___get__(PyArray_Descr *
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize___get__(PyArray_Descr *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":257
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":257
  *         @property
  *         cdef inline npy_intp itemsize(self) noexcept nogil:
  *             return PyDataType_ELSIZE(self)             # <<<<<<<<<<<<<<
@@ -21886,7 +21886,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize___get__(PyArray_De
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":255
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":255
  *             return PyDataType_TYPENUM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -21899,7 +21899,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize___get__(PyArray_De
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":259
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":259
  *             return PyDataType_ELSIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -21910,7 +21910,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_8itemsize___get__(PyArray_De
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment___get__(PyArray_Descr *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":261
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":261
  *         @property
  *         cdef inline npy_intp alignment(self) noexcept nogil:
  *             return PyDataType_ALIGNMENT(self)             # <<<<<<<<<<<<<<
@@ -21923,7 +21923,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment___get__(PyArray_D
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":259
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":259
  *             return PyDataType_ELSIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -21936,7 +21936,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_5dtype_9alignment___get__(PyArray_D
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":265
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":265
  *         # Use fields/names with care as they may be NULL.  You must check
  *         # for this using PyDataType_HASFIELDS.
  *         @property             # <<<<<<<<<<<<<<
@@ -21950,7 +21950,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields___get__(PyArray_Des
   PyObject *__pyx_t_1;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":267
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":267
  *         @property
  *         cdef inline object fields(self):
  *             return <object>PyDataType_FIELDS(self)             # <<<<<<<<<<<<<<
@@ -21971,7 +21971,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields___get__(PyArray_Des
 
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":265
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":265
  *         # Use fields/names with care as they may be NULL.  You must check
  *         # for this using PyDataType_HASFIELDS.
  *         @property             # <<<<<<<<<<<<<<
@@ -21986,7 +21986,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_6fields___get__(PyArray_Des
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":269
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":269
  *             return <object>PyDataType_FIELDS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22000,7 +22000,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names___get__(PyArray_Desc
   PyObject *__pyx_t_1;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":271
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":271
  *         @property
  *         cdef inline tuple names(self):
  *             return <tuple>PyDataType_NAMES(self)             # <<<<<<<<<<<<<<
@@ -22021,7 +22021,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names___get__(PyArray_Desc
 
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":269
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":269
  *             return <object>PyDataType_FIELDS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22036,7 +22036,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names___get__(PyArray_Desc
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":276
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":276
  *         # valid (the pointer can be NULL). Most users should access
  *         # this field via the inline helper method PyDataType_SHAPE.
  *         @property             # <<<<<<<<<<<<<<
@@ -22047,7 +22047,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5dtype_5names___get__(PyArray_Desc
 static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray___get__(PyArray_Descr *__pyx_v_self) {
   PyArray_ArrayDescr *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":278
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":278
  *         @property
  *         cdef inline PyArray_ArrayDescr* subarray(self) noexcept nogil:
  *             return PyDataType_SUBARRAY(self)             # <<<<<<<<<<<<<<
@@ -22060,7 +22060,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray___get__
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":276
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":276
  *         # valid (the pointer can be NULL). Most users should access
  *         # this field via the inline helper method PyDataType_SHAPE.
  *         @property             # <<<<<<<<<<<<<<
@@ -22073,7 +22073,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray___get__
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":280
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":280
  *             return PyDataType_SUBARRAY(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22084,7 +22084,7 @@ static CYTHON_INLINE PyArray_ArrayDescr *__pyx_f_5numpy_5dtype_8subarray___get__
 static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags___get__(PyArray_Descr *__pyx_v_self) {
   npy_uint64 __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":283
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":283
  *         cdef inline npy_uint64 flags(self) noexcept nogil:
  *             """The data types flags."""
  *             return PyDataType_FLAGS(self)             # <<<<<<<<<<<<<<
@@ -22097,7 +22097,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags___get__(PyArray_Des
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":280
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":280
  *             return PyDataType_SUBARRAY(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22110,7 +22110,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags___get__(PyArray_Des
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":292
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":292
  *     ctypedef class numpy.broadcast [object PyArrayMultiIterObject, check_size ignore]:
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22121,7 +22121,7 @@ static CYTHON_INLINE npy_uint64 __pyx_f_5numpy_5dtype_5flags___get__(PyArray_Des
 static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter___get__(PyArrayMultiIterObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":295
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":295
  *         cdef inline int numiter(self) noexcept nogil:
  *             """The number of arrays that need to be broadcast to the same shape."""
  *             return PyArray_MultiIter_NUMITER(self)             # <<<<<<<<<<<<<<
@@ -22134,7 +22134,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter___get__(PyArrayMulti
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":292
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":292
  *     ctypedef class numpy.broadcast [object PyArrayMultiIterObject, check_size ignore]:
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22147,7 +22147,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter___get__(PyArrayMulti
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":297
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":297
  *             return PyArray_MultiIter_NUMITER(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22158,7 +22158,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_7numiter___get__(PyArrayMulti
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size___get__(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":300
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":300
  *         cdef inline npy_intp size(self) noexcept nogil:
  *             """The total broadcasted size."""
  *             return PyArray_MultiIter_SIZE(self)             # <<<<<<<<<<<<<<
@@ -22171,7 +22171,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size___get__(PyArrayMul
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":297
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":297
  *             return PyArray_MultiIter_NUMITER(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22184,7 +22184,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size___get__(PyArrayMul
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":302
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":302
  *             return PyArray_MultiIter_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22195,7 +22195,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_4size___get__(PyArrayMul
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index___get__(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":305
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":305
  *         cdef inline npy_intp index(self) noexcept nogil:
  *             """The current (1-d) index into the broadcasted result."""
  *             return PyArray_MultiIter_INDEX(self)             # <<<<<<<<<<<<<<
@@ -22208,7 +22208,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index___get__(PyArrayMu
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":302
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":302
  *             return PyArray_MultiIter_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22221,7 +22221,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index___get__(PyArrayMu
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":307
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":307
  *             return PyArray_MultiIter_INDEX(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22232,7 +22232,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_9broadcast_5index___get__(PyArrayMu
 static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd___get__(PyArrayMultiIterObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":310
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":310
  *         cdef inline int nd(self) noexcept nogil:
  *             """The number of dimensions in the broadcasted result."""
  *             return PyArray_MultiIter_NDIM(self)             # <<<<<<<<<<<<<<
@@ -22245,7 +22245,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd___get__(PyArrayMultiIterO
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":307
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":307
  *             return PyArray_MultiIter_INDEX(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22258,7 +22258,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd___get__(PyArrayMultiIterO
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":312
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":312
  *             return PyArray_MultiIter_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22269,7 +22269,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_9broadcast_2nd___get__(PyArrayMultiIterO
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions___get__(PyArrayMultiIterObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":315
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":315
  *         cdef inline npy_intp* dimensions(self) noexcept nogil:
  *             """The shape of the broadcasted result."""
  *             return PyArray_MultiIter_DIMS(self)             # <<<<<<<<<<<<<<
@@ -22282,7 +22282,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions___get__(Py
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":312
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":312
  *             return PyArray_MultiIter_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22295,7 +22295,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions___get__(Py
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":317
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":317
  *             return PyArray_MultiIter_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22306,7 +22306,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_9broadcast_10dimensions___get__(Py
 static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters___get__(PyArrayMultiIterObject *__pyx_v_self) {
   void **__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":321
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":321
  *             """An array of iterator objects that holds the iterators for the arrays to be broadcast together.
  *             On return, the iterators are adjusted for broadcasting."""
  *             return PyArray_MultiIter_ITERS(self)             # <<<<<<<<<<<<<<
@@ -22319,7 +22319,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters___get__(PyArrayMult
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":317
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":317
  *             return PyArray_MultiIter_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22332,7 +22332,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters___get__(PyArrayMult
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":335
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":335
  *         # Instead, we use properties that map to the corresponding C-API functions.
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22343,7 +22343,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_9broadcast_5iters___get__(PyArrayMult
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base___get__(PyArrayObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":339
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":339
  *             """Returns a borrowed reference to the object owning the data/memory.
  *             """
  *             return PyArray_BASE(self)             # <<<<<<<<<<<<<<
@@ -22356,7 +22356,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base___get__(PyArrayObje
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":335
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":335
  *         # Instead, we use properties that map to the corresponding C-API functions.
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22369,7 +22369,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_7ndarray_4base___get__(PyArrayObje
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":341
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":341
  *             return PyArray_BASE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22383,7 +22383,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr___get__(PyArr
   PyArray_Descr *__pyx_t_1;
   __Pyx_RefNannySetupContext("__get__", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":345
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":345
  *             """Returns an owned reference to the dtype of the array.
  *             """
  *             return <dtype>PyArray_DESCR(self)             # <<<<<<<<<<<<<<
@@ -22404,7 +22404,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr___get__(PyArr
 
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":341
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":341
  *             return PyArray_BASE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22419,7 +22419,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr___get__(PyArr
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":347
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":347
  *             return <dtype>PyArray_DESCR(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22430,7 +22430,7 @@ static CYTHON_INLINE PyArray_Descr *__pyx_f_5numpy_7ndarray_5descr___get__(PyArr
 static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim___get__(PyArrayObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":351
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":351
  *             """Returns the number of dimensions in the array.
  *             """
  *             return PyArray_NDIM(self)             # <<<<<<<<<<<<<<
@@ -22443,7 +22443,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim___get__(PyArrayObject *__
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":347
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":347
  *             return <dtype>PyArray_DESCR(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22456,7 +22456,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim___get__(PyArrayObject *__
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":353
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":353
  *             return PyArray_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22467,7 +22467,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_7ndarray_4ndim___get__(PyArrayObject *__
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape___get__(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":359
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":359
  *             Can return NULL for 0-dimensional arrays.
  *             """
  *             return PyArray_DIMS(self)             # <<<<<<<<<<<<<<
@@ -22480,7 +22480,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape___get__(PyArrayObj
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":353
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":353
  *             return PyArray_NDIM(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22493,7 +22493,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape___get__(PyArrayObj
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":361
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":361
  *             return PyArray_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22504,7 +22504,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_5shape___get__(PyArrayObj
 static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides___get__(PyArrayObject *__pyx_v_self) {
   npy_intp *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":366
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":366
  *             The number of elements matches the number of dimensions of the array (ndim).
  *             """
  *             return PyArray_STRIDES(self)             # <<<<<<<<<<<<<<
@@ -22517,7 +22517,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides___get__(PyArrayO
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":361
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":361
  *             return PyArray_DIMS(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22530,7 +22530,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides___get__(PyArrayO
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":368
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":368
  *             return PyArray_STRIDES(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22541,7 +22541,7 @@ static CYTHON_INLINE npy_intp *__pyx_f_5numpy_7ndarray_7strides___get__(PyArrayO
 static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size___get__(PyArrayObject *__pyx_v_self) {
   npy_intp __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":372
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":372
  *             """Returns the total size (in number of elements) of the array.
  *             """
  *             return PyArray_SIZE(self)             # <<<<<<<<<<<<<<
@@ -22554,7 +22554,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size___get__(PyArrayObjec
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":368
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":368
  *             return PyArray_STRIDES(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22567,7 +22567,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size___get__(PyArrayObjec
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":374
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":374
  *             return PyArray_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22578,7 +22578,7 @@ static CYTHON_INLINE npy_intp __pyx_f_5numpy_7ndarray_4size___get__(PyArrayObjec
 static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data___get__(PyArrayObject *__pyx_v_self) {
   char *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":381
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":381
  *             of `PyArray_DATA()` instead, which returns a 'void*'.
  *             """
  *             return PyArray_BYTES(self)             # <<<<<<<<<<<<<<
@@ -22591,7 +22591,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data___get__(PyArrayObject *
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":374
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":374
  *             return PyArray_SIZE(self)
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -22604,7 +22604,7 @@ static CYTHON_INLINE char *__pyx_f_5numpy_7ndarray_4data___get__(PyArrayObject *
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":794
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":794
  * ctypedef long double complex clongdouble_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -22621,7 +22621,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew1", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":795
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":795
  * 
  * cdef inline object PyArray_MultiIterNew1(a):
  *     return PyArray_MultiIterNew(1, <void*>a)             # <<<<<<<<<<<<<<
@@ -22641,7 +22641,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":794
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":794
  * ctypedef long double complex clongdouble_t
  * 
  * cdef inline object PyArray_MultiIterNew1(a):             # <<<<<<<<<<<<<<
@@ -22660,7 +22660,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew1(PyObject *__
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":797
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":797
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -22677,7 +22677,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew2", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":798
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":798
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)             # <<<<<<<<<<<<<<
@@ -22697,7 +22697,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":797
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":797
  *     return PyArray_MultiIterNew(1, <void*>a)
  * 
  * cdef inline object PyArray_MultiIterNew2(a, b):             # <<<<<<<<<<<<<<
@@ -22716,7 +22716,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew2(PyObject *__
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":800
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":800
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -22733,7 +22733,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew3", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":801
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":801
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)             # <<<<<<<<<<<<<<
@@ -22753,7 +22753,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":800
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":800
  *     return PyArray_MultiIterNew(2, <void*>a, <void*>b)
  * 
  * cdef inline object PyArray_MultiIterNew3(a, b, c):             # <<<<<<<<<<<<<<
@@ -22772,7 +22772,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew3(PyObject *__
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":803
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":803
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -22789,7 +22789,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew4", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":804
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":804
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)             # <<<<<<<<<<<<<<
@@ -22809,7 +22809,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":803
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":803
  *     return PyArray_MultiIterNew(3, <void*>a, <void*>b, <void*> c)
  * 
  * cdef inline object PyArray_MultiIterNew4(a, b, c, d):             # <<<<<<<<<<<<<<
@@ -22828,7 +22828,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew4(PyObject *__
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":806
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":806
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -22845,7 +22845,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("PyArray_MultiIterNew5", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":807
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":807
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)             # <<<<<<<<<<<<<<
@@ -22865,7 +22865,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":806
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":806
  *     return PyArray_MultiIterNew(4, <void*>a, <void*>b, <void*>c, <void*> d)
  * 
  * cdef inline object PyArray_MultiIterNew5(a, b, c, d, e):             # <<<<<<<<<<<<<<
@@ -22884,7 +22884,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyArray_MultiIterNew5(PyObject *__
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":809
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":809
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -22899,7 +22899,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   PyObject *__pyx_t_2;
   __Pyx_RefNannySetupContext("PyDataType_SHAPE", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":810
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":810
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -22911,7 +22911,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   if (__pyx_t_1) {
 
 
-    /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":811
+    /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":811
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):
  *         return <tuple>d.subarray.shape             # <<<<<<<<<<<<<<
@@ -22932,7 +22932,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
 
     goto __pyx_L0;
 
-    /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":810
+    /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":810
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):
  *     if PyDataType_HASSUBARRAY(d):             # <<<<<<<<<<<<<<
@@ -22941,7 +22941,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
 */
   }
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":813
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":813
  *         return <tuple>d.subarray.shape
  *     else:
  *         return ()             # <<<<<<<<<<<<<<
@@ -22961,7 +22961,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
     goto __pyx_L0;
   }
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":809
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":809
  *     return PyArray_MultiIterNew(5, <void*>a, <void*>b, <void*>c, <void*> d, <void*> e)
  * 
  * cdef inline tuple PyDataType_SHAPE(dtype d):             # <<<<<<<<<<<<<<
@@ -22976,7 +22976,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":947
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":947
  * 
  *     ctypedef class numpy.ufunc [object PyUFuncObject, check_size ignore]:
  *         @property             # <<<<<<<<<<<<<<
@@ -22987,7 +22987,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_PyDataType_SHAPE(PyArray_Descr *__
 static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_3nin___get__(PyUFuncObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":949
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":949
  *         @property
  *         cdef inline int nin(self) noexcept nogil:
  *             return _PyUFuncObject_GET_ITEM_DATA(self).nin             # <<<<<<<<<<<<<<
@@ -23000,7 +23000,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_3nin___get__(PyUFuncObject *__pyx
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":947
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":947
  * 
  *     ctypedef class numpy.ufunc [object PyUFuncObject, check_size ignore]:
  *         @property             # <<<<<<<<<<<<<<
@@ -23013,7 +23013,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_3nin___get__(PyUFuncObject *__pyx
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":951
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":951
  *             return _PyUFuncObject_GET_ITEM_DATA(self).nin
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23024,7 +23024,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_3nin___get__(PyUFuncObject *__pyx
 static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_4nout___get__(PyUFuncObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":953
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":953
  *         @property
  *         cdef inline int nout(self) noexcept nogil:
  *             return _PyUFuncObject_GET_ITEM_DATA(self).nout             # <<<<<<<<<<<<<<
@@ -23037,7 +23037,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_4nout___get__(PyUFuncObject *__py
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":951
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":951
  *             return _PyUFuncObject_GET_ITEM_DATA(self).nin
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23050,7 +23050,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_4nout___get__(PyUFuncObject *__py
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":955
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":955
  *             return _PyUFuncObject_GET_ITEM_DATA(self).nout
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23061,7 +23061,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_4nout___get__(PyUFuncObject *__py
 static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_5nargs___get__(PyUFuncObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":957
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":957
  *         @property
  *         cdef inline int nargs(self) noexcept nogil:
  *             return _PyUFuncObject_GET_ITEM_DATA(self).nargs             # <<<<<<<<<<<<<<
@@ -23074,7 +23074,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_5nargs___get__(PyUFuncObject *__p
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":955
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":955
  *             return _PyUFuncObject_GET_ITEM_DATA(self).nout
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23087,7 +23087,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_5nargs___get__(PyUFuncObject *__p
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":959
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":959
  *             return _PyUFuncObject_GET_ITEM_DATA(self).nargs
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23098,7 +23098,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_5nargs___get__(PyUFuncObject *__p
 static CYTHON_INLINE PyUFuncGenericFunction *__pyx_f_5numpy_5ufunc_9functions___get__(PyUFuncObject *__pyx_v_self) {
   PyUFuncGenericFunction *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":961
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":961
  *         @property
  *         cdef inline PyUFuncGenericFunction* functions(self) noexcept nogil:
  *             return _PyUFuncObject_GET_ITEM_DATA(self).functions             # <<<<<<<<<<<<<<
@@ -23111,7 +23111,7 @@ static CYTHON_INLINE PyUFuncGenericFunction *__pyx_f_5numpy_5ufunc_9functions___
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":959
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":959
  *             return _PyUFuncObject_GET_ITEM_DATA(self).nargs
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23124,7 +23124,7 @@ static CYTHON_INLINE PyUFuncGenericFunction *__pyx_f_5numpy_5ufunc_9functions___
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":963
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":963
  *             return _PyUFuncObject_GET_ITEM_DATA(self).functions
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23135,7 +23135,7 @@ static CYTHON_INLINE PyUFuncGenericFunction *__pyx_f_5numpy_5ufunc_9functions___
 static CYTHON_INLINE void **__pyx_f_5numpy_5ufunc_4data___get__(PyUFuncObject *__pyx_v_self) {
   void **__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":965
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":965
  *         @property
  *         cdef inline void ** data(self) noexcept nogil:
  *             return <void **>_PyUFuncObject_GET_ITEM_DATA(self).data             # <<<<<<<<<<<<<<
@@ -23148,7 +23148,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_5ufunc_4data___get__(PyUFuncObject *_
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":963
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":963
  *             return _PyUFuncObject_GET_ITEM_DATA(self).functions
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23161,7 +23161,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_5ufunc_4data___get__(PyUFuncObject *_
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":967
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":967
  *             return <void **>_PyUFuncObject_GET_ITEM_DATA(self).data
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23172,7 +23172,7 @@ static CYTHON_INLINE void **__pyx_f_5numpy_5ufunc_4data___get__(PyUFuncObject *_
 static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_6ntypes___get__(PyUFuncObject *__pyx_v_self) {
   int __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":969
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":969
  *         @property
  *         cdef inline int ntypes(self) noexcept nogil:
  *             return _PyUFuncObject_GET_ITEM_DATA(self).ntypes             # <<<<<<<<<<<<<<
@@ -23185,7 +23185,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_6ntypes___get__(PyUFuncObject *__
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":967
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":967
  *             return <void **>_PyUFuncObject_GET_ITEM_DATA(self).data
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23198,7 +23198,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_6ntypes___get__(PyUFuncObject *__
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":971
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":971
  *             return _PyUFuncObject_GET_ITEM_DATA(self).ntypes
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23209,7 +23209,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_5ufunc_6ntypes___get__(PyUFuncObject *__
 static CYTHON_INLINE char const *__pyx_f_5numpy_5ufunc_4name___get__(PyUFuncObject *__pyx_v_self) {
   char const *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":973
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":973
  *         @property
  *         cdef inline const char* name(self) noexcept nogil:
  *             return _PyUFuncObject_GET_ITEM_DATA(self).name             # <<<<<<<<<<<<<<
@@ -23222,7 +23222,7 @@ static CYTHON_INLINE char const *__pyx_f_5numpy_5ufunc_4name___get__(PyUFuncObje
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":971
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":971
  *             return _PyUFuncObject_GET_ITEM_DATA(self).ntypes
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23235,7 +23235,7 @@ static CYTHON_INLINE char const *__pyx_f_5numpy_5ufunc_4name___get__(PyUFuncObje
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":975
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":975
  *             return _PyUFuncObject_GET_ITEM_DATA(self).name
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23246,7 +23246,7 @@ static CYTHON_INLINE char const *__pyx_f_5numpy_5ufunc_4name___get__(PyUFuncObje
 static CYTHON_INLINE char const *__pyx_f_5numpy_5ufunc_3doc___get__(PyUFuncObject *__pyx_v_self) {
   char const *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":977
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":977
  *         @property
  *         cdef inline const char* doc(self) noexcept nogil:
  *             return _PyUFuncObject_GET_ITEM_DATA(self).doc             # <<<<<<<<<<<<<<
@@ -23259,7 +23259,7 @@ static CYTHON_INLINE char const *__pyx_f_5numpy_5ufunc_3doc___get__(PyUFuncObjec
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":975
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":975
  *             return _PyUFuncObject_GET_ITEM_DATA(self).name
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23272,7 +23272,7 @@ static CYTHON_INLINE char const *__pyx_f_5numpy_5ufunc_3doc___get__(PyUFuncObjec
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":979
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":979
  *             return _PyUFuncObject_GET_ITEM_DATA(self).doc
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23283,7 +23283,7 @@ static CYTHON_INLINE char const *__pyx_f_5numpy_5ufunc_3doc___get__(PyUFuncObjec
 static CYTHON_INLINE void *__pyx_f_5numpy_5ufunc_3ptr___get__(PyUFuncObject *__pyx_v_self) {
   void *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":981
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":981
  *         @property
  *         cdef inline void* ptr(self) noexcept nogil:
  *             return _PyUFuncObject_GET_ITEM_DATA(self).ptr             # <<<<<<<<<<<<<<
@@ -23296,7 +23296,7 @@ static CYTHON_INLINE void *__pyx_f_5numpy_5ufunc_3ptr___get__(PyUFuncObject *__p
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":979
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":979
  *             return _PyUFuncObject_GET_ITEM_DATA(self).doc
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23309,7 +23309,7 @@ static CYTHON_INLINE void *__pyx_f_5numpy_5ufunc_3ptr___get__(PyUFuncObject *__p
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":983
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":983
  *             return _PyUFuncObject_GET_ITEM_DATA(self).ptr
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23320,7 +23320,7 @@ static CYTHON_INLINE void *__pyx_f_5numpy_5ufunc_3ptr___get__(PyUFuncObject *__p
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_5ufunc_3obj___get__(PyUFuncObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":985
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":985
  *         @property
  *         cdef inline PyObject* obj(self) noexcept nogil:
  *             return _PyUFuncObject_GET_ITEM_DATA(self).obj             # <<<<<<<<<<<<<<
@@ -23333,7 +23333,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5ufunc_3obj___get__(PyUFuncObject 
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":983
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":983
  *             return _PyUFuncObject_GET_ITEM_DATA(self).ptr
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23346,7 +23346,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5ufunc_3obj___get__(PyUFuncObject 
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":987
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":987
  *             return _PyUFuncObject_GET_ITEM_DATA(self).obj
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23357,7 +23357,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5ufunc_3obj___get__(PyUFuncObject 
 static CYTHON_INLINE PyObject *__pyx_f_5numpy_5ufunc_9userloops___get__(PyUFuncObject *__pyx_v_self) {
   PyObject *__pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":989
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":989
  *         @property
  *         cdef inline PyObject* userloops(self) noexcept nogil:
  *             return _PyUFuncObject_GET_ITEM_DATA(self).userloops             # <<<<<<<<<<<<<<
@@ -23370,7 +23370,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5ufunc_9userloops___get__(PyUFuncO
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":987
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":987
  *             return _PyUFuncObject_GET_ITEM_DATA(self).obj
  * 
  *         @property             # <<<<<<<<<<<<<<
@@ -23383,7 +23383,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_5ufunc_9userloops___get__(PyUFuncO
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1065
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1065
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:             # <<<<<<<<<<<<<<
@@ -23397,7 +23397,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1066
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1066
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:
  *     Py_INCREF(base) # important to do this before stealing the reference below!             # <<<<<<<<<<<<<<
@@ -23406,7 +23406,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 */
   Py_INCREF(__pyx_v_base);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1067
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1067
  * cdef inline void set_array_base(ndarray arr, object base) except *:
  *     Py_INCREF(base) # important to do this before stealing the reference below!
  *     PyArray_SetBaseObject(arr, base)             # <<<<<<<<<<<<<<
@@ -23416,7 +23416,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
   __pyx_t_1 = PyArray_SetBaseObject(__pyx_v_arr, __pyx_v_base); if (unlikely(__pyx_t_1 == ((int)-1))) __PYX_ERR(2, 1067, __pyx_L1_error)
 
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1065
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1065
  *     int _import_umath() except -1
  * 
  * cdef inline void set_array_base(ndarray arr, object base) except *:             # <<<<<<<<<<<<<<
@@ -23432,7 +23432,7 @@ static CYTHON_INLINE void __pyx_f_5numpy_set_array_base(PyArrayObject *__pyx_v_a
 
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1069
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1069
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -23447,7 +23447,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   int __pyx_t_1;
   __Pyx_RefNannySetupContext("get_array_base", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1070
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1070
  * 
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)             # <<<<<<<<<<<<<<
@@ -23456,7 +23456,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 */
   __pyx_v_base = PyArray_BASE(__pyx_v_arr);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1071
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1071
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -23468,7 +23468,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   if (__pyx_t_1) {
 
 
-    /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1072
+    /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1072
  *     base = PyArray_BASE(arr)
  *     if base is NULL:
  *         return None             # <<<<<<<<<<<<<<
@@ -23485,7 +23485,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
     }
     goto __pyx_L0;
 
-    /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1071
+    /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1071
  * cdef inline object get_array_base(ndarray arr):
  *     base = PyArray_BASE(arr)
  *     if base is NULL:             # <<<<<<<<<<<<<<
@@ -23494,7 +23494,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
 */
   }
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1073
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1073
  *     if base is NULL:
  *         return None
  *     return <object>base             # <<<<<<<<<<<<<<
@@ -23512,7 +23512,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1069
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1069
  *     PyArray_SetBaseObject(arr, base)
  * 
  * cdef inline object get_array_base(ndarray arr):             # <<<<<<<<<<<<<<
@@ -23528,7 +23528,7 @@ static CYTHON_INLINE PyObject *__pyx_f_5numpy_get_array_base(PyArrayObject *__py
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1077
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1077
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -23554,7 +23554,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_array", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1078
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1078
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -23570,7 +23570,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1079
+      /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1079
  * cdef inline int import_array() except -1:
  *     try:
  *         __pyx_import_array()             # <<<<<<<<<<<<<<
@@ -23580,7 +23580,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __pyx_t_4 = _import_array(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1079, __pyx_L3_error)
 
 
-      /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1078
+      /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1078
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -23594,7 +23594,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1080
+    /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1080
  *     try:
  *         __pyx_import_array()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -23609,7 +23609,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1081
+      /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1081
  *         __pyx_import_array()
  *     except Exception:
  *         raise ImportError("numpy._core.multiarray failed to import")             # <<<<<<<<<<<<<<
@@ -23631,7 +23631,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1078
+    /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1078
  * # Cython code.
  * cdef inline int import_array() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -23647,7 +23647,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1077
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1077
  * # Versions of the import_* functions which are more suitable for
  * # Cython code.
  * cdef inline int import_array() except -1:             # <<<<<<<<<<<<<<
@@ -23672,7 +23672,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_array(void) {
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1083
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1083
  *         raise ImportError("numpy._core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -23698,7 +23698,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_umath", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1084
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1084
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -23714,7 +23714,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1085
+      /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1085
  * cdef inline int import_umath() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -23724,7 +23724,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1085, __pyx_L3_error)
 
 
-      /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1084
+      /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1084
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -23738,7 +23738,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1086
+    /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1086
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -23753,7 +23753,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1087
+      /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1087
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy._core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -23775,7 +23775,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1084
+    /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1084
  * 
  * cdef inline int import_umath() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -23791,7 +23791,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1083
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1083
  *         raise ImportError("numpy._core.multiarray failed to import")
  * 
  * cdef inline int import_umath() except -1:             # <<<<<<<<<<<<<<
@@ -23816,7 +23816,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_umath(void) {
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1089
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1089
  *         raise ImportError("numpy._core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -23842,7 +23842,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   int __pyx_clineno = 0;
   __Pyx_RefNannySetupContext("import_ufunc", 0);
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1090
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1090
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -23858,7 +23858,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __Pyx_XGOTREF(__pyx_t_3);
     /*try:*/ {
 
-      /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1091
+      /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1091
  * cdef inline int import_ufunc() except -1:
  *     try:
  *         _import_umath()             # <<<<<<<<<<<<<<
@@ -23868,7 +23868,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __pyx_t_4 = _import_umath(); if (unlikely(__pyx_t_4 == ((int)-1))) __PYX_ERR(2, 1091, __pyx_L3_error)
 
 
-      /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1090
+      /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1090
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -23882,7 +23882,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     goto __pyx_L8_try_end;
     __pyx_L3_error:;
 
-    /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1092
+    /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1092
  *     try:
  *         _import_umath()
  *     except Exception:             # <<<<<<<<<<<<<<
@@ -23897,7 +23897,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
       __Pyx_XGOTREF(__pyx_t_6);
       __Pyx_XGOTREF(__pyx_t_7);
 
-      /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1093
+      /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1093
  *         _import_umath()
  *     except Exception:
  *         raise ImportError("numpy._core.umath failed to import")             # <<<<<<<<<<<<<<
@@ -23919,7 +23919,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     }
     goto __pyx_L5_except_error;
 
-    /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1090
+    /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1090
  * 
  * cdef inline int import_ufunc() except -1:
  *     try:             # <<<<<<<<<<<<<<
@@ -23935,7 +23935,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
     __pyx_L8_try_end:;
   }
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1089
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1089
  *         raise ImportError("numpy._core.umath failed to import")
  * 
  * cdef inline int import_ufunc() except -1:             # <<<<<<<<<<<<<<
@@ -23960,7 +23960,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1096
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1096
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -23971,7 +23971,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_import_ufunc(void) {
 static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1108
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1108
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyTimedeltaArrType_Type)             # <<<<<<<<<<<<<<
@@ -23984,7 +23984,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1096
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1096
  * 
  * 
  * cdef inline bint is_timedelta64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -23998,7 +23998,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1111
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1111
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -24009,7 +24009,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_timedelta64_object(PyObject *__pyx_v_
 static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_obj) {
   int __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1123
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1123
  *     bool
  *     """
  *     return PyObject_TypeCheck(obj, &PyDatetimeArrType_Type)             # <<<<<<<<<<<<<<
@@ -24022,7 +24022,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1111
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1111
  * 
  * 
  * cdef inline bint is_datetime64_object(object obj) noexcept:             # <<<<<<<<<<<<<<
@@ -24036,7 +24036,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1126
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1126
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -24047,7 +24047,7 @@ static CYTHON_INLINE int __pyx_f_5numpy_is_datetime64_object(PyObject *__pyx_v_o
 static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *__pyx_v_obj) {
   npy_datetime __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1133
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1133
  *     also needed.  That can be found using `get_datetime64_unit`.
  *     """
  *     return _PyDatetimeScalarObject_GetValue(obj)             # <<<<<<<<<<<<<<
@@ -24060,7 +24060,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1126
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1126
  * 
  * 
  * cdef inline npy_datetime get_datetime64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -24073,7 +24073,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1136
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1136
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -24084,7 +24084,7 @@ static CYTHON_INLINE npy_datetime __pyx_f_5numpy_get_datetime64_value(PyObject *
 static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject *__pyx_v_obj) {
   npy_timedelta __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1140
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1140
  *     returns the int64 value underlying scalar numpy timedelta64 object
  *     """
  *     return _PyTimedeltaScalarObject_GetValue(obj)             # <<<<<<<<<<<<<<
@@ -24097,7 +24097,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1136
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1136
  * 
  * 
  * cdef inline npy_timedelta get_timedelta64_value(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -24110,7 +24110,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
   return __pyx_r;
 }
 
-/* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1143
+/* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1143
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) noexcept nogil:             # <<<<<<<<<<<<<<
@@ -24121,7 +24121,7 @@ static CYTHON_INLINE npy_timedelta __pyx_f_5numpy_get_timedelta64_value(PyObject
 static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObject *__pyx_v_obj) {
   NPY_DATETIMEUNIT __pyx_r;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1147
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1147
  *     returns the unit part of the dtype for a numpy datetime64 object.
  *     """
  *     return _PyDatetimeScalarObject_GetMetadata(obj).base             # <<<<<<<<<<<<<<
@@ -24134,7 +24134,7 @@ static CYTHON_INLINE NPY_DATETIMEUNIT __pyx_f_5numpy_get_datetime64_unit(PyObjec
   }
   goto __pyx_L0;
 
-  /* "../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1143
+  /* "../../../AppData/Local/Python/pythoncore-3.14-64/Lib/site-packages/numpy/__init__.cython-30.pxd":1143
  * 
  * 
  * cdef inline NPY_DATETIMEUNIT get_datetime64_unit(object obj) noexcept nogil:             # <<<<<<<<<<<<<<

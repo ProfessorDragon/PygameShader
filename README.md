@@ -21,7 +21,9 @@ While these changes improve the developer experience and codebase consistency, t
     This refactoring can be time-consuming, particularly in larger projects or those where the library is deeply integrated.
 
 ```
-pip install PygameShader==1.0.11
+python setup.py build_ext --inplace
+python setup.py bdist_wheel
+pip install dist\pygameshader-xxxx.whl
 ```
 
 <p align="left">
