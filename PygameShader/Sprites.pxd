@@ -257,6 +257,7 @@ cdef class LayeredUpdates(AbstractGroup):
     cpdef void add_internal(self, sprite, layer_=*)
     cpdef void remove_internal(self, sprite)
     cpdef list sprites(self)
+    cpdef draw(self, object surface)
     cpdef get_sprites_at(self, pos)
     cpdef get_sprite(self, int idx)
     cpdef remove_sprites_of_layer(self, int layer_nr)

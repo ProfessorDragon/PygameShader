@@ -254,7 +254,6 @@ cdef class Sprite(object):
         (optional argument)
         :return: None
         """
-        self.__dict__ = {}
         self.__g = {}
         if groups is not None:
             self.add(*groups)
@@ -375,8 +374,8 @@ cdef class DirtySprite(Sprite):
         0 is the default value but this is able to be set differently
         when subclassing.
     """
-    cdef int dirty, blendmode, _visible, _layer
-    cdef object source_rect
+    cdef public int dirty, blendmode, _visible, _layer
+    cdef public object source_rect
 
     def __init__(self, *groups):
         self.dirty = 1
@@ -680,7 +679,7 @@ cdef class AbstractGroup(object):
             # remove sprite itself
             s.remove_internal(self)
 
-    def __nonzero__(self):
+    def __bool__(self):
         return truth(list(self.spritedict))
 
     def __len__(self):
@@ -734,8 +733,7 @@ cdef class RenderUpdates(Group):
     method that tracks the changed areas of the SCREEN.
     """
 
-    #TODO CPDEF ? CPDEF draw check group (draw)
-    def draw(self, surface):
+    cpdef draw(self, object surface):
         spritedict = self.spritedict
         surface_blit = surface.blit
         dirty = self.lostsprites
@@ -939,7 +937,7 @@ cdef class LayeredUpdates(AbstractGroup):
         """
         return list(self._spritelist)
 
-    def draw(self, surface):
+    cpdef draw(self, object surface):
         """draw all sprites in the right order onto the passed surface
         LayeredUpdates.draw(surface): return Rect_list
         """
@@ -1161,7 +1159,7 @@ cdef class LayeredDirty(LayeredUpdates):
                 if PyObject_HasAttr(self, key):
                     PyObject_SetAttr(self, key, val)
 
-    def add_internal(self, sprite, layer=None):
+    cpdef void add_internal(self, sprite, layer_=None):
         """Do not use this method directly.
         It is used by the group to add a sprite internally.
         """
@@ -1179,9 +1177,9 @@ cdef class LayeredDirty(LayeredUpdates):
         if sprite.dirty == 0:  # set it dirty if it is not
             sprite.dirty = 1
 
-        LayeredUpdates.add_internal(self, sprite, layer)
+        LayeredUpdates.add_internal(self, sprite, layer_)
 
-    def draw(self, surface, bgd=None):
+    cpdef draw(self, object surface, bgd=None):
         """draw all sprites in the right order onto the given surface
         LayeredDirty.draw(surface, bgd=None): return Rect_list
         You can pass the background too. If a self.bgd is already set to some
@@ -1318,7 +1316,7 @@ cdef class LayeredDirty(LayeredUpdates):
         _surf.set_clip(_orig_clip)
         return _ret
 
-    def clear(self, surface, bgd):
+    cpdef void clear(self, object surface, object bgd):
         """use to set background
         Group.clear(surface, bgd): return None
         """
@@ -1350,7 +1348,7 @@ cdef class LayeredDirty(LayeredUpdates):
         """
         return self._clip
 
-    def change_layer(self, sprite, new_layer):
+    cpdef change_layer(self, sprite, new_layer):
         """change the layer of the sprite
         LayeredUpdates.change_layer(sprite, new_layer): return None
         The sprite must have been added to the renderer already. This is not
@@ -1411,7 +1409,7 @@ cdef class GroupSingle(AbstractGroup):
             self.remove_internal(self.__sprite)
         self.__sprite = sprite
 
-    def __nonzero__(self):
+    def __bool__(self):
         """
         Called to implement truth value testing and the built-in operation bool();
          should return False or True, or their integer equivalents 0 or 1.

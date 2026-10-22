@@ -15,7 +15,6 @@ repository = https://test.pypi.org/
 repository = https://upload.pypi.org/legacy/
 """
 # twine upload --repository testpypi dist/*
-# twine upload --repository pypi dist/pygameshader-1.0.11* --verbose
 
 import setuptools
 try:
@@ -75,7 +74,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 # pypitest latest version 1.0.29
 
 ext_link_args = ""
-PythonVerMax = 14
+PythonVerMax = 15
 py_requires = "PygameShader requires python3 version 3.6 - %s" % ("3." + str(PythonVerMax - 1))
 # If you are building the project from source with a python version
 # > python 3.11 you can extend the range to force the build process
@@ -134,7 +133,8 @@ if plat.startswith("WINDOWS"):
         if len(platform.win32_ver()) == 3:
             release, versioninfo, machine = platform.win32_ver()
 
-    ext_compile_args = [ "/openmp" if OPENMP else "", "/Qpar", "/fp:fast", "/O2", "/Oy", "/Ot", "/W3" ]
+    ext_compile_args = [ "/openmp" if OPENMP else "", "/Qpar", "/fp:fast", "/O2", "/Oy", "/Ot", "/W3",
+                         "/wd4244", "/wd4018", "/wd4551" ]
 
 
 
@@ -227,14 +227,15 @@ if TEST_VERSION:
 else:
     print("\n*** BUILDING PYGAMESHADER VERSION ***  : %s \n" % __VERSION__)
 
-print(
-    "GPU SHADERS INFO"
-    "\nIn order to use the GPU shaders the library CUPY has to be installed on your system\n"
-    "in addition to CUDA Toolkit: v10.2 / v11.0 / v11.1 / v11.2 / v11.3 / v11.4 / v11.5 / "
-    "v11.6 or above.\n"
-    "Please refer to the below link for the full installation guide https://docs.cupy.dev/"
-    "en/stable/install.html\n"
-    "To check if CUDA is installed type nvcc --version in a command prompt.\n")
+if not __CUPY:
+    print(
+        "GPU SHADERS INFO"
+        "\nIn order to use the GPU shaders the library CUPY has to be installed on your system\n"
+        "in addition to CUDA Toolkit: v10.2 / v11.0 / v11.1 / v11.2 / v11.3 / v11.4 / v11.5 / "
+        "v11.6 or above.\n"
+        "Please refer to the below link for the full installation guide https://docs.cupy.dev/"
+        "en/stable/install.html\n"
+        "To check if CUDA is installed type nvcc --version in a command prompt.\n")
 
 # define_macros=[("NPY_NO_DEPRECATED_API", "NPY_1_7_API_VERSION")]),
 setuptools.setup(
@@ -296,7 +297,7 @@ setuptools.setup(
     ], quiet=True),
 
     include_dirs=[numpy.get_include()],
-    license='GNU General Public License v3.0',
+    license='GPL-3.0-only',
 
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -319,7 +320,6 @@ setuptools.setup(
         'Programming Language :: Python :: 3.11',
         'Programming Language :: Python :: 3.12',
         'Programming Language :: Python :: 3.13',
-        'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
         'Topic :: Software Development :: Libraries :: pygame',
         'Topic :: Software Development :: Build Tools',
     ],
@@ -465,4 +465,3 @@ setuptools.setup(
         'Source': 'https://github.com/yoyoberenguer/PygameShader',
     },
 )
-

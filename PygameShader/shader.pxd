@@ -196,13 +196,13 @@ cdef extern from 'Include/Shaderlib.c':
 
 
 
-cdef float M_PI = 3.14159265358979323846
-cdef float M_PI2 =3.14159265358979323846/2.0
-cdef float M_2PI =2 * 3.14159265358979323846
-cdef float RAD_TO_DEG=180.0/M_PI
-cdef float DEG_TO_RAD=M_PI/180.0
+cdef float M_PI
+cdef float M_PI2
+cdef float M_2PI
+cdef float RAD_TO_DEG
+cdef float DEG_TO_RAD
 
-cdef int THREADS = 8
+cdef int THREADS
 
 cpdef void bgr(object surface_)
 cpdef bgr_copy(object surface_)

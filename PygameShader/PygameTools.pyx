@@ -310,12 +310,6 @@ cpdef unsigned char [:, :, ::1] resize_array(
             f" {len(rgb_array[ :3 ]) if hasattr(rgb_array, '__len__') else 'unknown'})"
         )
 
-        # Ensure the input array is of type uint8
-        if not is_uint8(rgb_array):
-            raise TypeError(
-                f"\nExpecting uint8 (unsigned char) data type, but got {rgb_array.dtype}."
-            )
-
     # Call the C-implemented function to perform the scaling
     return resize_array_c(rgb_array, w2, h2)
 
