@@ -10,8 +10,6 @@
 
 numpy >= 1.19.5
 
-pygame >=2.5.2
-
 # Cython < 3.0 cause the following error msg
 # from libc.math cimport sqrtf as sqrt, atan2f as atan2, sinf as sin,\
 # ------------------------------------------------------------
@@ -21,4 +19,3 @@ cython >=3.0.2
 setuptools~=54.1.1
 
 cupy >=9.6.0
-
