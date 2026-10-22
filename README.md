@@ -220,11 +220,7 @@ shader.pyx, shader.pxd, __init__.pxd or any external C code if applicable
 1) open a terminal window
 2) Go in the main project directory where (shader.pyx & 
    shader.pxd files are located)
-3) run : `C:\>python setup_shader.py build_ext --inplace --force`
-
-If you have to compile the code with a specific python 
-version, make sure to reference the right python version 
-in (`python38 setup_shader.py build_ext --inplace`)
+3) run : `python setup.py build_ext --inplace --force`
 
 If the compilation fail, refers to the requirement section and 
 make sure Cython and a C-compiler are correctly install on your
@@ -241,19 +237,20 @@ https://devblogs.microsoft.com/python/unable-to-find-vcvarsall-bat/
 
 *Edit the file config.py and check the variable OPENMP.*
 *You can enable or disable multi-processing*
+
 ```python
 # Build the cython code with mutli-processing (OPENMP) 
 OPENMP : bool = True
 ```
-*Save the change and build the cython code with the following instruction:*
-```bash
-C:\PygameShader\PygameShader\python setup_shader.py build_ext --inplace --force
-````
-*If the project build successfully, the compilation will end up with the following lines*
+
+*Save the change and rebuild the cython code.*
+*If the project builds successfully, the compilation will end up with the following lines:*
+
 ```
 Generating code
 Finished generating code
 ```
+
 If you have any compilation error(s) refer to the section ```Building cython code```, make sure 
 your system has the following program & libraries installed. Check also that the code is not 
 running in a different thread. 

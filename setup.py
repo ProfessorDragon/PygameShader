@@ -6,7 +6,7 @@ Setup.py file
 Configure the project, build the package and upload the package to PYPI
 
 
-python_version setup.py sdist bdist_wheel (to include the source)
+python setup.py sdist bdist_wheel (to include the source)
 
 [TEST PYPI]
 repository = https://test.pypi.org/
@@ -77,10 +77,8 @@ ext_link_args = ""
 PythonVerMax = 15
 py_requires = "PygameShader requires python3 version 3.6 - %s" % ("3." + str(PythonVerMax - 1))
 # If you are building the project from source with a python version
-# > python 3.11 you can extend the range to force the build process
-# e.g py_minor_versions = [x for x in range(6, 15)] ** compatible until
-# python 3.14
-py_minor_versions = [x for x in range(6, PythonVerMax)]
+# >3.11, you can extend the range to force the build process
+py_minor_versions = range(6, PythonVerMax)
 
 if hasattr(sys, 'version_info'):
     try:
@@ -237,17 +235,15 @@ if not __CUPY:
         "en/stable/install.html\n"
         "To check if CUDA is installed type nvcc --version in a command prompt.\n")
 
-# define_macros=[("NPY_NO_DEPRECATED_API", "NPY_1_7_API_VERSION")]),
 setuptools.setup(
     name="pygameshader",
-    version= __VERSION__,       # testing version "1.0.27",
+    version= __VERSION__,
     author="Yoann Berenguer",
     author_email="yoyoberenguer@hotmail.com",
     description="Pygame effects for 2D video game and arcade game",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/yoyoberenguer/PygameShader",
-    # packages=setuptools.find_packages(),
     packages=['PygameShader'],
     ext_modules=cythonize(module_list=[
         Extension("PygameShader.shader", ["PygameShader/shader.pyx"],
@@ -345,7 +341,6 @@ setuptools.setup(
           'PygameShader/__init__.py',
           'PygameShader/__init__.pxd',
           'PygameShader/Dithering.py',
-          'PygameShader/setup_shader.py',
           'PygameShader/BlendFlags.pxd',
           'PygameShader/BlendFlags.pyx',
           'PygameShader/shader.pyx',
@@ -459,7 +454,7 @@ setuptools.setup(
          ])
     ],
 
-    project_urls={  # Optional
+    project_urls={
         'Bug Reports': 'https://github.com/yoyoberenguer/PygameShader/issues',
         'Source': 'https://github.com/yoyoberenguer/PygameShader',
     },

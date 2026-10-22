@@ -326,13 +326,6 @@ such as games, simulations, and computer vision tasks.
 
 
 
-
-"""
-# VERSION 1.0.11
-"""
-
-
-
 import warnings
 
 warnings.filterwarnings("ignore", category=FutureWarning)
